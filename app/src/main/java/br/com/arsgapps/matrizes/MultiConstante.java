@@ -46,12 +46,12 @@ public class MultiConstante extends Activity implements OnClickListener {
 
 		quant = l * c;
 
-		edtElementoConst = (EditText) findViewById(R.id.edtElementoConst);
-		edtConstante = (EditText) findViewById(R.id.edtConstante);
+		edtElementoConst = findViewById(R.id.edtElementoConst);
+		edtConstante = findViewById(R.id.edtConstante);
 
-		btnAdicionarElementosConst = (Button) findViewById(R.id.btnAdicionarElementoConst);
+		btnAdicionarElementosConst = findViewById(R.id.btnAdicionarElementoConst);
 		btnAdicionarElementosConst.setOnClickListener(this);
-		btnCalcularMatrizConst = (Button) findViewById(R.id.btnCalcularMatrizConst);
+		btnCalcularMatrizConst = findViewById(R.id.btnCalcularMatrizConst);
 		btnCalcularMatrizConst.setOnClickListener(this);
 		btnCalcularMatrizConst.setEnabled(false);
 

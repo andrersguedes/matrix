@@ -12,7 +12,6 @@ import br.com.arsgapps.matrizes.R;
 public class Operacoes extends Activity {
 
 	String[] elementoA, elementoB;
-	float[][] matrizA, matrizB;
 	int l, c;
 	char op;
 	LinearLayout layoutMatrizC, layoutMultiMatriz;
@@ -24,12 +23,13 @@ public class Operacoes extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_result);
 
-		layoutMatrizC = (LinearLayout) findViewById(R.id.layoutMatrizC);
-		layoutMultiMatriz = (LinearLayout) findViewById(R.id.layoutMultiMatriz);
+		layoutMatrizC = findViewById(R.id.layoutMatrizC);
+		layoutMultiMatriz = findViewById(R.id.layoutMultiMatriz);
 
 		Intent soma = getIntent();
 		Bundle params = soma.getExtras();
-		elementoA = params.getStringArray("elementosA");
+        assert params != null;
+        elementoA = params.getStringArray("elementosA");
 		elementoB = params.getStringArray("elementosB");
 		constante = params.getDouble("constante");
 		l = params.getInt("l");
@@ -61,8 +61,8 @@ public class Operacoes extends Activity {
 			layout.setPadding(10, 2, 10, 2);
 
 			for (int j = 0; j < c; j++) {
-				matrizC[i][j] = (Float.valueOf(elementosA[controle]) + Float
-						.valueOf(elementosB[controle]));
+				matrizC[i][j] = (Float.parseFloat(elementosA[controle]) + Float
+						.parseFloat(elementosB[controle]));
 
 				controle++;
 				float res = matrizC[i][j];
@@ -90,8 +90,8 @@ public class Operacoes extends Activity {
 			layout.setPadding(10, 2, 10, 2);
 
 			for (int j = 0; j < c; j++) {
-				matrizC[i][j] = (Float.valueOf(elementosA[controle]) - Float
-						.valueOf(elementosB[controle]));
+				matrizC[i][j] = (Float.parseFloat(elementosA[controle]) - Float
+						.parseFloat(elementosB[controle]));
 
 				controle++;
 				float res = matrizC[i][j];

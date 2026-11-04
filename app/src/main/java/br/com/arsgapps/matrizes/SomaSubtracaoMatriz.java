@@ -2,7 +2,6 @@ package br.com.arsgapps.matrizes;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +18,7 @@ import br.com.arsgapps.matrizes.controller.Operacoes;
 public class SomaSubtracaoMatriz extends Activity implements OnClickListener {
 
 	int l, c, quant;
-	LinearLayout layoutMatrizA, layoutMatrizB, layoutMatrizC, layoutMatrizes;
+	LinearLayout layoutMatrizA, layoutMatrizB, layoutMatrizes;
 	Button btnAdicionarElementos, btnCalcularMatriz;
 	EditText edtElementoA, edtElementoB;
 	TextView txtQuantElementos;
@@ -47,22 +46,21 @@ public class SomaSubtracaoMatriz extends Activity implements OnClickListener {
 
 		quant = l * c;
 
-		layoutMatrizA = (LinearLayout) findViewById(R.id.layoutMatrizA);
-		layoutMatrizB = (LinearLayout) findViewById(R.id.layoutMatrizB);
-		layoutMatrizC = (LinearLayout) findViewById(R.id.layoutMatrizC);
+		layoutMatrizA = findViewById(R.id.layoutMatrizA);
+		layoutMatrizB = findViewById(R.id.layoutMatrizB);
 
-		btnAdicionarElementos = (Button) findViewById(R.id.btnAdicionarElemento);
+		btnAdicionarElementos = findViewById(R.id.btnAdicionarElemento);
 		btnAdicionarElementos.setOnClickListener(this);
-		btnCalcularMatriz = (Button) findViewById(R.id.btnCalcularMatriz);
+		btnCalcularMatriz = findViewById(R.id.btnCalcularMatriz);
 		btnCalcularMatriz.setOnClickListener(this);
 		btnCalcularMatriz.setEnabled(false);
 
-		layoutMatrizes = (LinearLayout) findViewById(R.id.linearMatrizes);
+		layoutMatrizes = findViewById(R.id.linearMatrizes);
 
-		txtQuantElementos = (TextView) findViewById(R.id.txtQuantElementos);
+		txtQuantElementos = findViewById(R.id.txtQuantElementos);
 
-		edtElementoA = (EditText) findViewById(R.id.edtElementoA);
-		edtElementoB = (EditText) findViewById(R.id.edtElementoB);
+		edtElementoA = findViewById(R.id.edtElementoA);
+		edtElementoB = findViewById(R.id.edtElementoB);
 
 		txtQuantElementos.setText(String.valueOf(quant));
 	}
@@ -169,13 +167,7 @@ public class SomaSubtracaoMatriz extends Activity implements OnClickListener {
 		alertDialog1.setTitle("Informação");
 		alertDialog1
 				.setMessage("Insira os elementos separados por vírgula. \n\nPor exemplo: 2.0,3,5.1,7");
-		alertDialog1.setButton("OK", new DialogInterface.OnClickListener() {
-
-			public void onClick(DialogInterface dialog, int which) {
-
-			}
-		});
-
+		alertDialog1.setButton("OK", (dialog, which) -> dialog.dismiss());
 		alertDialog1.show();
 
 	}

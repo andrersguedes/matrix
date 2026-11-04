@@ -23,10 +23,10 @@ public class OrdemMatriz extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ordem);
 
-		edtLinhas = (EditText) findViewById(R.id.edtNumLinhas);
-		edtColunas = (EditText) findViewById(R.id.edtNumColunas);
+		edtLinhas = findViewById(R.id.edtNumLinhas);
+		edtColunas = findViewById(R.id.edtNumColunas);
 
-		btnInformarValores = (Button) findViewById(R.id.btnInformarValores);
+		btnInformarValores = findViewById(R.id.btnInformarValores);
 		btnInformarValores.setOnClickListener(this);
 
 		Intent soma = getIntent();

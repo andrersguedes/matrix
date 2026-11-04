@@ -47,19 +47,19 @@ public class MultiMatrizes extends Activity implements OnClickListener {
 
 		quant = l * c;
 
-		btnAdicionarElementosMatriz = (Button) findViewById(R.id.btnAdicionarElementoMulti);
-		btnCalcularMatrizMatriz = (Button) findViewById(R.id.btnCalcularMatrizMulti);
+		btnAdicionarElementosMatriz = findViewById(R.id.btnAdicionarElementoMulti);
+		btnCalcularMatrizMatriz = findViewById(R.id.btnCalcularMatrizMulti);
 		btnAdicionarElementosMatriz.setOnClickListener(this);
 		btnCalcularMatrizMatriz.setOnClickListener(this);
 
-		edtMultiA = (EditText) findViewById(R.id.edtMatrizMultiA);
-		edtMultiB = (EditText) findViewById(R.id.edtMatrizMultiB);
-		txtQuantMatriz = (TextView) findViewById(R.id.txtQuantElementosMatriz);
+		edtMultiA = findViewById(R.id.edtMatrizMultiA);
+		edtMultiB = findViewById(R.id.edtMatrizMultiB);
+		txtQuantMatriz = findViewById(R.id.txtQuantElementosMatriz);
 		txtQuantMatriz.setText(String.valueOf(quant));
 
-		layoutMultiMatriz = (LinearLayout) findViewById(R.id.layoutMultiMatriz);
-		linearMultiA = (LinearLayout) findViewById(R.id.layoutMatrizMultiA);
-		linearMultiB = (LinearLayout) findViewById(R.id.layoutMatrizMultiB);
+		layoutMultiMatriz = findViewById(R.id.layoutMultiMatriz);
+		linearMultiA = findViewById(R.id.layoutMatrizMultiA);
+		linearMultiB = findViewById(R.id.layoutMatrizMultiB);
 	}
 
 	@SuppressWarnings("deprecation")
@@ -214,7 +214,7 @@ public class MultiMatrizes extends Activity implements OnClickListener {
 				}
 			}
 		} else if (v.getId() == R.id.btnCalcularMatrizMulti) {
-			if (opcao == false) {
+			if (!opcao) {
 				float[][] matrizC = new float[l][l];
 
 				for (int i = 0; i < mA; i++) {
