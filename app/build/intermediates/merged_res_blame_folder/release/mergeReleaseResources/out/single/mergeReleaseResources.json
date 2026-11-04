@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-hdpi_fundo.jpg.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-hdpi/fundo.jpg"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_multi_constante.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_multi_constante.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_soma.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_soma.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_result.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_result.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_multi_matrizes.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_multi_matrizes.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_ordem.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_ordem.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-hdpi_fundo_matriz.png.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-hdpi/fundo_matriz.png"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-hdpi_shape_linear.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-hdpi/shape_linear.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/layout_activity_main.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "br.edu.fatecgarca.matrizes.app-release-7:/drawable-hdpi_shape_matrizes.xml.flat",
+        "source": "br.edu.fatecgarca.matrizes.app-main-8:/drawable-hdpi/shape_matrizes.xml"
+    }
+]

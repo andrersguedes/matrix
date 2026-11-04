@@ -1,0 +1,11 @@
+br.edu.fatecgarca.matrizes.app-jetified-core-ktx-1.10.1-0 /Users/andreguedes/.gradle/caches/9.8.0/transforms/19deb7f4c1132e7ab42bde85ebcdadbf/transformed/jetified-core-ktx-1.10.1/res
+br.edu.fatecgarca.matrizes.app-jetified-annotation-experimental-1.3.0-1 /Users/andreguedes/.gradle/caches/9.8.0/transforms/43a267742db0844b4439fee4e9a13668/transformed/jetified-annotation-experimental-1.3.0/res
+br.edu.fatecgarca.matrizes.app-lifecycle-runtime-2.3.1-2 /Users/andreguedes/.gradle/caches/9.8.0/transforms/4bec168697a182bd3d6abdec01bd0fdd/transformed/lifecycle-runtime-2.3.1/res
+br.edu.fatecgarca.matrizes.app-core-1.10.1-3 /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/res
+br.edu.fatecgarca.matrizes.app-pngs-4 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/res/pngs/release
+br.edu.fatecgarca.matrizes.app-resValues-5 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/res/resValues/release
+br.edu.fatecgarca.matrizes.app-packageReleaseResources-6 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+br.edu.fatecgarca.matrizes.app-packageReleaseResources-7 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+br.edu.fatecgarca.matrizes.app-release-8 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/merged_res/release/mergeReleaseResources
+br.edu.fatecgarca.matrizes.app-main-9 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/res
+br.edu.fatecgarca.matrizes.app-release-10 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/release/res

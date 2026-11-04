@@ -1,0 +1,29 @@
+<variant
+    name="debug"
+    package="br.edu.fatecgarca.matrizes"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    debuggable="true"
+    mergedManifest="build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml"
+    partialResultsDir="build/intermediates/android_test_lint_partial_results/debug/lintAnalyzeDebugAndroidTest/out"
+    desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/9e371ad1cb48929c617f86bf862ab752/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src/androidTest/AndroidManifest.xml"
+        javaDirectories="src/androidTest/java:src/androidTestDebug/java:src/androidTest/kotlin:src/androidTestDebug/kotlin"
+        resDirectories="src/androidTest/res:src/androidTestDebug/res"
+        assetsDirectories="src/androidTest/assets:src/androidTestDebug/assets"
+        keepRulesDirectories="src/androidTest/keepRules:src/androidTestDebug/keepRules"
+        androidTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="INSTRUMENTATION_TEST"
+      applicationId="br.edu.fatecgarca.matrizes.test"
+      desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/9e371ad1cb48929c617f86bf862ab752/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

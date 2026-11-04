@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "matrix"
+include(":app")

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.4.1" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="br.edu.fatecgarca.matrizes.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.drawable.fundo_matriz"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-hdpi/fundo_matriz.png"/>
+        <location id="R.string.action_settings"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="110"
+            endLine="5"
+            endColumn="35"
+            endOffset="132"/>
+        <location id="R.string.dialogo_titulo"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="28"
+            column="13"
+            startOffset="1101"
+            endLine="28"
+            endColumn="34"
+            endOffset="1122"/>
+        <location id="R.string.soma_matrizes"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="31"
+            column="13"
+            startOffset="1274"
+            endLine="31"
+            endColumn="33"
+            endOffset="1294"/>
+        <location id="R.style.AppBaseTheme"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="9"
+            column="12"
+            startOffset="259"
+            endLine="9"
+            endColumn="31"
+            endOffset="278"/>
+        <location id="R.style.AppTheme"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="20"
+            column="12"
+            startOffset="592"
+            endLine="20"
+            endColumn="27"
+            endOffset="607"/>
+        <entry
+            name="model"
+            string="dimen[activity_vertical_margin(U),activity_horizontal_margin(U)],drawable[ic_launcher(U),fundo(U),fundo_matriz(D),shape_linear(U),shape_matrizes(U)],id[txtTextoInicial(D),tableRow1(D),btnSoma(U),btnSubtrai(U),tableRow2(D),btnMultiplica(U),btnMultiplicaMatrizes(U),scrollView1(D),layoutAdicionarElementoConst(D),textView5(D),txtQuantElementosConst(D),textView1(D),edtElementoConst(U),btnAdicionarElementoConst(U),linearMatrizesConst(D),textView3(D),layoutMatrizConst(U),textView2(D),edtConstante(U),btnCalcularMatrizConst(U),txtQuantElementosMatriz(U),edtMatrizMultiA(U),edtMatrizMultiB(U),btnAdicionarElementoMulti(U),linearMatrizesMulti(D),layoutMatrizMultiA(U),textView4(D),layoutMatrizMultiB(U),btnCalcularMatrizMulti(U),layoutMultiMatriz(U),layout(D),edtNumLinhas(U),edtNumColunas(U),btnInformarValores(U),layoutMatrizC(U),layoutAdicionarElemento(D),txtQuantElementos(U),edtElementoA(U),edtElementoB(U),btnAdicionarElemento(U),linearMatrizes(U),layoutMatrizA(U),layoutMatrizB(U),btnCalcularMatriz(U)],layout[activity_main(U),activity_multi_constante(U),activity_multi_matrizes(U),activity_ordem(U),activity_result(U),activity_soma(U)],string[app_name(U),texto_inicial(U),soma(U),subtracao(U),multiplicacao(U),multiplicacao_matrizes(U),elementosM(U),a(U),adicionar(U),matrizA(U),constante(U),calcular(U),b(U),matrizBtrans(U),matrizC(U),ordem(U),num_linhas(U),x(U),num_colunas(U),informar(U),resultado(U),elementos(U),matrizB(U),action_settings(D),dialogo_titulo(D),soma_matrizes(D)],style[TextoInicial(U),TableLayouts(U),TableRows(U),Buttons(U),TextosNormais(U),AppBaseTheme(D),AppTheme(D)];33^3^0^1^3a^53^5^54^55^3b^56^3c^3d^3e,34^3^0^1^5^3f^57^40^41^55^6^42^43^44,35^3^0^1^5^3f^57^40^45^41^55^6^42^46^44^47,36^3^0^1^48^53^5^49^57^4a^4b^4c^56,37^4d,38^3^0^1^5^4e^57^40^45^41^55^6^42^4f^44,59^58;;;"/>
+    </map>
+
+</incidents>
