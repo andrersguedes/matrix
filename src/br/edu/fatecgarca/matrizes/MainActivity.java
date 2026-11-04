@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 /*
- * @author André Guedes
+ * @author AndrÃ© Guedes
  */
 
 public class MainActivity extends Activity {

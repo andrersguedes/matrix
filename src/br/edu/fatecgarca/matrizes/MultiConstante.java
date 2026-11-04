@@ -62,9 +62,9 @@ public class MultiConstante extends Activity implements OnClickListener {
 	protected void mostrarDialog() {
 		AlertDialog alertDialog1 = new AlertDialog.Builder(MultiConstante.this)
 				.create();
-		alertDialog1.setTitle("InformaÁ„o");
+		alertDialog1.setTitle("Informa√ß√£o");
 		alertDialog1
-				.setMessage("Insira os elementos separados por vÌrgula. \n\nPor exemplo: 2.0,3,5.1,7");
+				.setMessage("Insira os elementos separados por v√≠rgula. \n\nPor exemplo: 2.0,3,5.1,7");
 		alertDialog1.setButton("OK", new DialogInterface.OnClickListener() {
 
 			public void onClick(DialogInterface dialog, int which) {
@@ -88,7 +88,7 @@ public class MultiConstante extends Activity implements OnClickListener {
 			if (elementosConst.length != quant) {
 				Toast.makeText(
 						this,
-						"Quantidade de elementos da matriz n„o corresponde com a ordem da matriz!",
+						"Quantidade de elementos da matriz n√£o corresponde com a ordem da matriz!",
 						Toast.LENGTH_SHORT).show();
 			} else {
 				int a = 0;

@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.edu.fatecgarca.matrizes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+12        android:name="br.edu.fatecgarca.matrizes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="br.edu.fatecgarca.matrizes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:4:5-44:19
+18        android:allowBackup="true"
+18-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.10.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/7693e53a4b9c40b8d31f4b771b028681/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@drawable/ic_launcher"
+22-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:6:9-45
+23        android:label="@string/app_name" >
+23-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:7:9-41
+24        <activity
+24-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:8:9-17:20
+25            android:name="br.edu.fatecgarca.matrizes.MainActivity"
+25-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:9:13-67
+26            android:exported="true"
+26-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:10:13-36
+27            android:label="@string/app_name" >
+27-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:11:13-45
+28            <intent-filter>
+28-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:12:13-16:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:13:17-69
+29-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:13:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:15:17-77
+31-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:15:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:18:9-22:20
+35            android:name="br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz"
+35-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:19:13-74
+36            android:exported="false"
+36-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:20:13-37
+37            android:screenOrientation="portrait" >
+37-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:21:13-49
+38        </activity>
+39        <activity
+39-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:23:9-27:20
+40            android:name="br.edu.fatecgarca.matrizes.OrdemMatriz"
+40-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:24:13-66
+41            android:exported="false"
+41-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:25:13-37
+42            android:screenOrientation="portrait" >
+42-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:26:13-49
+43        </activity>
+44        <activity
+44-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:28:9-33:20
+45            android:name="br.edu.fatecgarca.matrizes.controller.Operacoes"
+45-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:29:13-75
+46            android:exported="false"
+46-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:30:13-37
+47            android:screenOrientation="portrait"
+47-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:31:13-49
+48            android:theme="@android:style/Theme.Dialog" >
+48-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:32:13-56
+49        </activity>
+50        <activity
+50-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:34:9-38:20
+51            android:name="br.edu.fatecgarca.matrizes.MultiConstante"
+51-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:35:13-69
+52            android:exported="false"
+52-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:36:13-37
+53            android:screenOrientation="portrait" >
+53-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:37:13-49
+54        </activity>
+55        <activity
+55-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:39:9-43:20
+56            android:name="br.edu.fatecgarca.matrizes.MultiMatrizes"
+56-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:40:13-68
+57            android:exported="false"
+57-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:41:13-37
+58            android:screenOrientation="portrait" >
+58-->/Users/andreguedes/AndroidStudioProjects/matrix/AndroidManifest.xml:42:13-49
+59        </activity>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+63            android:authorities="br.edu.fatecgarca.matrizes.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0917496d48c29a0feee83e365f6de84f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0e2327e528215f2e819328a781c41b69/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0e2327e528215f2e819328a781c41b69/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/andreguedes/.gradle/caches/9.8.0/transforms/0e2327e528215f2e819328a781c41b69/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>

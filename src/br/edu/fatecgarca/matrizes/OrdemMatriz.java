@@ -77,7 +77,7 @@ public class OrdemMatriz extends Activity implements OnClickListener {
 					startActivity(mulMatrizes);
 				}
 			} else {
-				Toast.makeText(this, "Insira valores v·lidos",
+				Toast.makeText(this, "Insira valores v√°lidos",
 						Toast.LENGTH_SHORT).show();
 			}
 		}

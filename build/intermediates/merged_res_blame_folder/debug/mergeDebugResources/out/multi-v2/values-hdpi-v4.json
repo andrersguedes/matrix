@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "br.edu.fatecgarca.matrizes-mergeDebugResources-26:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/andreguedes/.gradle/caches/9.8.0/transforms/5d6f2c8ad2d352cf1f33975618108bdf/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

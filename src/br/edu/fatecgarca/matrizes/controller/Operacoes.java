@@ -39,10 +39,10 @@ public class Operacoes extends Activity {
 			setTitle("Soma das matrizes");
 			this.soma(elementoA, elementoB, l, c);
 		} else if (op == '2') {
-			setTitle("Subtração das matrizes");
+			setTitle("SubtraÃ§Ã£o das matrizes");
 			this.subtrai(elementoA, elementoB, l, c);
 		} else if (op == '3') {
-			setTitle("Multiplicação de constante");
+			setTitle("MultiplicaÃ§Ã£o de constante");
 			this.multiplicaConstante(elementoA, constante, l, c);
 		}
 	}
