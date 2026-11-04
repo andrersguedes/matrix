@@ -4,11 +4,10 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name">
         <activity
-            android:name="br.edu.fatecgarca.matrizes.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,31 +15,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:name=".SomaSubtracaoMatriz"
+            android:exported="false" />
         <activity
-            android:name="br.edu.fatecgarca.matrizes.OrdemMatriz"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:name=".OrdemMatriz"
+            android:exported="false" />
         <activity
-            android:name="br.edu.fatecgarca.matrizes.controller.Operacoes"
+            android:name=".controller.Operacoes"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Dialog" >
-        </activity>
+            android:theme="@android:style/Theme.Dialog" />
         <activity
-            android:name="br.edu.fatecgarca.matrizes.MultiConstante"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:name=".MultiConstante"
+            android:exported="false" />
         <activity
-            android:name="br.edu.fatecgarca.matrizes.MultiMatrizes"
-            android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:name=".MultiMatrizes"
+            android:exported="false" />
     </application>
 
 </manifest>

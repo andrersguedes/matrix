@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.fatecgarca.matrizes"
+    namespace = "br.com.arsgapps.matrizes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.edu.fatecgarca.matrizes"
+        applicationId = "br.com.arsgapps.matrizes"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

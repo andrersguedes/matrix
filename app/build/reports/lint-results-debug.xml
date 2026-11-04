@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 9.4.1">
+<issues format="6" by="lint 9.5.0">
 
     <issue
         id="WrongCommentType"
@@ -12,7 +12,7 @@
         errorLine1=" * @author André Guedes"
         errorLine2="   ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MainActivity.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MainActivity.java"
             line="9"
             column="4"/>
     </issue>
@@ -30,7 +30,7 @@
         errorLine1="       elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="126"
             column="25"/>
     </issue>
@@ -48,7 +48,7 @@
         errorLine1="       elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="152"
             column="25"/>
     </issue>
@@ -66,7 +66,7 @@
         errorLine1="       elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="179"
             column="25"/>
     </issue>
@@ -84,7 +84,7 @@
         errorLine1="       elemento.setText(String.format(&quot;%.2f&quot;, res));"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="204"
             column="25"/>
     </issue>
@@ -102,7 +102,7 @@
         errorLine1="      elemento.setText(String.format(&quot;%.2f&quot;, res2));"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="240"
             column="24"/>
     </issue>
@@ -120,7 +120,7 @@
         errorLine1="      elemento.setText(String.format(&quot;%.2f&quot;, res2));"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="276"
             column="24"/>
     </issue>
@@ -138,8 +138,8 @@
         errorLine1="    elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
-            line="70"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
+            line="71"
             column="22"/>
     </issue>
 
@@ -156,8 +156,8 @@
         errorLine1="    elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
-            line="99"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
+            line="100"
             column="22"/>
     </issue>
 
@@ -174,8 +174,8 @@
         errorLine1="    elemento.setText(String.format(&quot;%.2f&quot;, res).concat(&quot;  &quot;));"
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
-            line="127"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
+            line="128"
             column="22"/>
     </issue>
 
@@ -208,25 +208,9 @@
         errorLine1="  layoutMatrizC = (LinearLayout) findViewById(R.id.layoutMatrizC);"
         errorLine2="                                              ~~~~~~~~~~~~~~~~~~">
         <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/edu/fatecgarca/matrizes/SomaSubtracaoMatriz.java"
-            line="51"
+            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/java/br/com/arsgapps/matrizes/SomaSubtracaoMatriz.java"
+            line="52"
             column="47"/>
-    </issue>
-
-    <issue
-        id="RedundantLabel"
-        severity="Warning"
-        message="Redundant label can be removed"
-        category="Correctness"
-        priority="5"
-        summary="Redundant label on activity"
-        explanation="When an activity does not have a label attribute, it will use the one from the application tag. Since the application has already specified the same label, the label on this activity can be omitted."
-        errorLine1="            android:label=&quot;@string/app_name&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="11"
-            column="13"/>
     </issue>
 
     <issue
@@ -294,96 +278,6 @@
     </issue>
 
     <issue
-        id="LockedOrientationActivity"
-        severity="Warning"
-        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-        category="Correctness"
-        priority="4"
-        summary="Incompatible screenOrientation value"
-        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `fullSensor` attribute."
-        url="https://developer.android.com/topic/arc/window-management"
-        urls="https://developer.android.com/topic/arc/window-management"
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="21"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="LockedOrientationActivity"
-        severity="Warning"
-        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-        category="Correctness"
-        priority="4"
-        summary="Incompatible screenOrientation value"
-        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `fullSensor` attribute."
-        url="https://developer.android.com/topic/arc/window-management"
-        urls="https://developer.android.com/topic/arc/window-management"
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="26"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="LockedOrientationActivity"
-        severity="Warning"
-        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-        category="Correctness"
-        priority="4"
-        summary="Incompatible screenOrientation value"
-        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `fullSensor` attribute."
-        url="https://developer.android.com/topic/arc/window-management"
-        urls="https://developer.android.com/topic/arc/window-management"
-        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="31"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="LockedOrientationActivity"
-        severity="Warning"
-        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-        category="Correctness"
-        priority="4"
-        summary="Incompatible screenOrientation value"
-        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `fullSensor` attribute."
-        url="https://developer.android.com/topic/arc/window-management"
-        urls="https://developer.android.com/topic/arc/window-management"
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="37"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="LockedOrientationActivity"
-        severity="Warning"
-        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-        category="Correctness"
-        priority="4"
-        summary="Incompatible screenOrientation value"
-        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `fullSensor` attribute."
-        url="https://developer.android.com/topic/arc/window-management"
-        urls="https://developer.android.com/topic/arc/window-management"
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="42"
-            column="13"/>
-    </issue>
-
-    <issue
         id="NewerVersionAvailable"
         severity="Warning"
         message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.20 is available: 2.4.21"
@@ -397,86 +291,6 @@
             file="/Users/andreguedes/AndroidStudioProjects/matrix/gradle/libs.versions.toml"
             line="11"
             column="10"/>
-    </issue>
-
-    <issue
-        id="DiscouragedApi"
-        severity="Warning"
-        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-        category="Correctness"
-        priority="2"
-        summary="Using discouraged APIs"
-        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="21"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="DiscouragedApi"
-        severity="Warning"
-        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-        category="Correctness"
-        priority="2"
-        summary="Using discouraged APIs"
-        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="26"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="DiscouragedApi"
-        severity="Warning"
-        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-        category="Correctness"
-        priority="2"
-        summary="Using discouraged APIs"
-        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="31"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="DiscouragedApi"
-        severity="Warning"
-        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-        category="Correctness"
-        priority="2"
-        summary="Using discouraged APIs"
-        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="37"
-            column="13"/>
-    </issue>
-
-    <issue
-        id="DiscouragedApi"
-        severity="Warning"
-        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-        category="Correctness"
-        priority="2"
-        summary="Using discouraged APIs"
-        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-        errorLine1="            android:screenOrientation=&quot;portrait&quot; >"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml"
-            line="42"
-            column="13"/>
     </issue>
 
     <issue

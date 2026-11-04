@@ -4,7 +4,7 @@
     name=":app"
     type="APP"
     maven="matrix:app:unspecified"
-    agpVersion="9.4.1"
+    agpVersion="9.5.0"
     buildFolder="build"
     bootClassPath="/Users/andreguedes/Library/Android/sdk/platforms/android-34/android.jar:/Users/andreguedes/Library/Android/sdk/build-tools/36.0.0/core-lambda-stubs.jar"
     javaSourceLevel="17"

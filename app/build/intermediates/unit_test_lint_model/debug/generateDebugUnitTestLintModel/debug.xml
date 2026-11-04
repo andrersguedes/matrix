@@ -1,6 +1,6 @@
 <variant
     name="debug"
-    package="br.edu.fatecgarca.matrizes"
+    package="br.com.arsgapps.matrizes"
     minSdkVersion="21"
     targetSdkVersion="34"
     debuggable="true"

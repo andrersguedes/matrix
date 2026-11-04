@@ -1,12 +1,12 @@
 <variant
     name="debug"
-    package="br.edu.fatecgarca.matrizes"
+    package="br.com.arsgapps.matrizes"
     minSdkVersion="21"
     targetSdkVersion="34"
     debuggable="true"
     mergedManifest="build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml"
     manifestMergeReport="build/outputs/logs/manifest-merger-debug-report.txt"
-    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-9.4.1"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-9.5.0"
     partialResultsDir="build/intermediates/lint_partial_results/debug/lintAnalyzeDebug/out">
   <buildFeatures/>
   <sourceProviders>
@@ -24,8 +24,8 @@
   <artifact
       classOutputs="build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:build/intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes:build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar"
       type="MAIN"
-      applicationId="br.edu.fatecgarca.matrizes"
+      applicationId="br.com.arsgapps.matrizes"
       generatedSourceFolders="build/generated/ap_generated_sources/debug/out"
-      desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/9e371ad1cb48929c617f86bf862ab752/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/ba2245226cc6f9568f33ebde0ef7e9d3/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

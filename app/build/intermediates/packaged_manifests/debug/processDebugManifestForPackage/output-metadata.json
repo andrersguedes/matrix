@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "br.edu.fatecgarca.matrizes",
+  "applicationId": "br.com.arsgapps.matrizes",
   "variantName": "debug",
   "elements": [
     {

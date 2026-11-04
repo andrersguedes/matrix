@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "br.edu.fatecgarca.matrizes.app-mergeReleaseResources-5:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "outputFile": "br.com.arsgapps.matrizes.app-mergeReleaseResources-5:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/res/values-sw720dp-land/dimens.xml",

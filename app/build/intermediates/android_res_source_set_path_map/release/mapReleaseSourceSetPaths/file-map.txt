@@ -1,8 +1,8 @@
-br.edu.fatecgarca.matrizes.app-pngs-0 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/res/pngs/release
-br.edu.fatecgarca.matrizes.app-updated_navigation_xml-1 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/updated_navigation_xml/release
-br.edu.fatecgarca.matrizes.app-packageReleaseResources-2 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
-br.edu.fatecgarca.matrizes.app-packageReleaseResources-3 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
-br.edu.fatecgarca.matrizes.app-release-4 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/merged_res/release/mergeReleaseResources
-br.edu.fatecgarca.matrizes.app-main-5 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/res
-br.edu.fatecgarca.matrizes.app-release-6 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/release/res
+br.com.arsgapps.matrizes.app-pngs-0 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/res/pngs/release
+br.com.arsgapps.matrizes.app-updated_navigation_xml-1 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/generated/updated_navigation_xml/release
+br.com.arsgapps.matrizes.app-packageReleaseResources-2 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+br.com.arsgapps.matrizes.app-packageReleaseResources-3 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+br.com.arsgapps.matrizes.app-release-4 /Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/merged_res/release/mergeReleaseResources
+br.com.arsgapps.matrizes.app-main-5 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/res
+br.com.arsgapps.matrizes.app-release-6 /Users/andreguedes/AndroidStudioProjects/matrix/app/src/release/res
 gradleHome-0 /Users/andreguedes/.gradle

@@ -7,8 +7,8 @@
                 "driver": {
                     "name": "Android Lint",
                     "fullName": "Android Lint (in gradle)",
-                    "version": "9.4.1",
-                    "semanticVersion": "9.4.1",
+                    "version": "9.5.0",
+                    "semanticVersion": "9.5.0",
                     "organization": "Google",
                     "informationUri": "https://developer.android.com/studio/write/lint",
                     "fullDescription": {
@@ -65,24 +65,6 @@
                             "defaultConfiguration": {
                                 "level": "warning",
                                 "rank": 50
-                            },
-                            "properties": {
-                                "tags": [
-                                    "Correctness"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "DiscouragedApi",
-                            "shortDescription": {
-                                "text": "Using discouraged APIs"
-                            },
-                            "fullDescription": {
-                                "text": "Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
-                            },
-                            "defaultConfiguration": {
-                                "level": "warning",
-                                "rank": 90
                             },
                             "properties": {
                                 "tags": [
@@ -162,25 +144,6 @@
                             "properties": {
                                 "tags": [
                                     "Accessibility"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "LockedOrientationActivity",
-                            "shortDescription": {
-                                "text": "Incompatible screenOrientation value"
-                            },
-                            "fullDescription": {
-                                "text": "The <activity> element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=\"unspecified\"`or fullSensor attribute.",
-                                "markdown": "The `<activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=\"unspecified\"`or `fullSensor` attribute."
-                            },
-                            "defaultConfiguration": {
-                                "level": "warning",
-                                "rank": 70
-                            },
-                            "properties": {
-                                "tags": [
-                                    "Correctness"
                                 ]
                             }
                         },
@@ -274,24 +237,6 @@
                             "properties": {
                                 "tags": [
                                     "Performance"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "RedundantLabel",
-                            "shortDescription": {
-                                "text": "Redundant label on activity"
-                            },
-                            "fullDescription": {
-                                "text": "When an activity does not have a label attribute, it will use the one from the application tag. Since the application has already specified the same label, the label on this activity can be omitted."
-                            },
-                            "defaultConfiguration": {
-                                "level": "warning",
-                                "rank": 60
-                            },
-                            "properties": {
-                                "tags": [
-                                    "Correctness"
                                 ]
                             }
                         },
@@ -401,7 +346,7 @@
             "results": [
                 {
                     "ruleId": "WrongCommentType",
-                    "ruleIndex": 19,
+                    "ruleIndex": 16,
                     "message": {
                         "text": "This block comment looks like it was intended to be a javadoc comment"
                     },
@@ -410,14 +355,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MainActivity.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MainActivity.java"
                                 },
                                 "region": {
                                     "startLine": 9,
                                     "startColumn": 4,
                                     "endLine": 9,
                                     "endColumn": 24,
-                                    "charOffset": 156,
+                                    "charOffset": 154,
                                     "charLength": 20,
                                     "snippet": {
                                         "text": "@author André Guedes"
@@ -443,20 +388,20 @@
                                 {
                                     "artifactLocation": {
                                         "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MainActivity.java"
+                                        "uri": "app/src/main/java/br/com/arsgapps/matrizes/MainActivity.java"
                                     },
                                     "replacements": [
                                         {
                                             "deletedRegion": {
                                                 "startLine": 8,
                                                 "startColumn": 1,
-                                                "charOffset": 150,
+                                                "charOffset": 148,
                                                 "endLine": 8,
                                                 "endColumn": 3,
                                                 "charLength": 2
                                             },
                                             "insertedContent": {
-                                                "text": "/**\n"
+                                                "text": "/**"
                                             }
                                         }
                                     ]
@@ -480,14 +425,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 126,
                                     "startColumn": 25,
                                     "endLine": 126,
                                     "endColumn": 51,
-                                    "charOffset": 3830,
+                                    "charOffset": 3828,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
@@ -519,14 +464,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 152,
                                     "startColumn": 25,
                                     "endLine": 152,
                                     "endColumn": 51,
-                                    "charOffset": 4600,
+                                    "charOffset": 4598,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
@@ -558,14 +503,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 179,
                                     "startColumn": 25,
                                     "endLine": 179,
                                     "endColumn": 51,
-                                    "charOffset": 5444,
+                                    "charOffset": 5442,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
@@ -597,14 +542,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 204,
                                     "startColumn": 25,
                                     "endLine": 204,
                                     "endColumn": 51,
-                                    "charOffset": 6197,
+                                    "charOffset": 6195,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
@@ -636,14 +581,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 240,
                                     "startColumn": 24,
                                     "endLine": 240,
                                     "endColumn": 51,
-                                    "charOffset": 7048,
+                                    "charOffset": 7046,
                                     "charLength": 27,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res2)"
@@ -675,14 +620,14 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java"
                                 },
                                 "region": {
                                     "startLine": 276,
                                     "startColumn": 24,
                                     "endLine": 276,
                                     "endColumn": 51,
-                                    "charOffset": 7922,
+                                    "charOffset": 7920,
                                     "charLength": 27,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res2)"
@@ -714,22 +659,22 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
                                 },
                                 "region": {
-                                    "startLine": 70,
+                                    "startLine": 71,
                                     "startColumn": 22,
-                                    "endLine": 70,
+                                    "endLine": 71,
                                     "endColumn": 48,
-                                    "charOffset": 1997,
+                                    "charOffset": 1994,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 68,
-                                    "endLine": 73,
+                                    "startLine": 69,
+                                    "endLine": 74,
                                     "snippet": {
                                         "text": "\n\t\t\t\tTextView elemento = new TextView(this);\n\t\t\t\telemento.setText(String.format(\"%.2f\", res).concat(\"  \"));\n\t\t\t\telemento.setLayoutParams(new LayoutParams(\n\t\t\t\t\t\tLayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));\n"
                                     }
@@ -753,22 +698,22 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
                                 },
                                 "region": {
-                                    "startLine": 99,
+                                    "startLine": 100,
                                     "startColumn": 22,
-                                    "endLine": 99,
+                                    "endLine": 100,
                                     "endColumn": 48,
-                                    "charOffset": 2787,
+                                    "charOffset": 2784,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 97,
-                                    "endLine": 102,
+                                    "startLine": 98,
+                                    "endLine": 103,
                                     "snippet": {
                                         "text": "\n\t\t\t\tTextView elemento = new TextView(this);\n\t\t\t\telemento.setText(String.format(\"%.2f\", res).concat(\"  \"));\n\t\t\t\telemento.setLayoutParams(new LayoutParams(\n\t\t\t\t\t\tLayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));\n"
                                     }
@@ -792,22 +737,22 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java"
                                 },
                                 "region": {
-                                    "startLine": 127,
+                                    "startLine": 128,
                                     "startColumn": 22,
-                                    "endLine": 127,
+                                    "endLine": 128,
                                     "endColumn": 48,
-                                    "charOffset": 3541,
+                                    "charOffset": 3538,
                                     "charLength": 26,
                                     "snippet": {
                                         "text": "String.format(\"%.2f\", res)"
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 125,
-                                    "endLine": 130,
+                                    "startLine": 126,
+                                    "endLine": 131,
                                     "snippet": {
                                         "text": "\n\t\t\t\tTextView elemento = new TextView(this);\n\t\t\t\telemento.setText(String.format(\"%.2f\", res).concat(\"  \"));\n\t\t\t\telemento.setLayoutParams(new LayoutParams(\n\t\t\t\t\t\tLayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));\n"
                                     }
@@ -821,7 +766,7 @@
                 },
                 {
                     "ruleId": "OldTargetApi",
-                    "ruleIndex": 12,
+                    "ruleIndex": 10,
                     "message": {
                         "text": "Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.",
                         "markdown": "Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
@@ -838,7 +783,7 @@
                                     "startColumn": 9,
                                     "endLine": 12,
                                     "endColumn": 23,
-                                    "charOffset": 224,
+                                    "charOffset": 220,
                                     "charLength": 14,
                                     "snippet": {
                                         "text": "targetSdk = 34"
@@ -848,7 +793,7 @@
                                     "startLine": 10,
                                     "endLine": 15,
                                     "snippet": {
-                                        "text": "        applicationId = \"br.edu.fatecgarca.matrizes\"\n        minSdk = 21\n        targetSdk = 34\n        versionCode = 1\n        versionName = \"1.0\"\n"
+                                        "text": "        applicationId = \"br.com.arsgapps.matrizes\"\n        minSdk = 21\n        targetSdk = 34\n        versionCode = 1\n        versionName = \"1.0\"\n"
                                     }
                                 }
                             }
@@ -870,13 +815,13 @@
                                             "deletedRegion": {
                                                 "startLine": 12,
                                                 "startColumn": 21,
-                                                "charOffset": 236,
+                                                "charOffset": 232,
                                                 "endLine": 12,
                                                 "endColumn": 23,
                                                 "charLength": 2
                                             },
                                             "insertedContent": {
-                                                "text": "37\n"
+                                                "text": "37"
                                             }
                                         }
                                     ]
@@ -885,12 +830,12 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "43d9ea1b19e34860"
+                        "sourceContext/v1": "4ca1dc4386d5d6be"
                     }
                 },
                 {
                     "ruleId": "MissingInflatedId",
-                    "ruleIndex": 9,
+                    "ruleIndex": 7,
                     "message": {
                         "text": "@layout/activity_soma does not contain a declaration with id layoutMatrizC",
                         "markdown": "`@layout/activity_soma` does not contain a declaration with id `layoutMatrizC`"
@@ -900,22 +845,22 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/br/edu/fatecgarca/matrizes/SomaSubtracaoMatriz.java"
+                                    "uri": "app/src/main/java/br/com/arsgapps/matrizes/SomaSubtracaoMatriz.java"
                                 },
                                 "region": {
-                                    "startLine": 51,
+                                    "startLine": 52,
                                     "startColumn": 47,
-                                    "endLine": 51,
+                                    "endLine": 52,
                                     "endColumn": 65,
-                                    "charOffset": 1470,
+                                    "charOffset": 1467,
                                     "charLength": 18,
                                     "snippet": {
                                         "text": "R.id.layoutMatrizC"
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 49,
-                                    "endLine": 54,
+                                    "startLine": 50,
+                                    "endLine": 55,
                                     "snippet": {
                                         "text": "\t\tlayoutMatrizA = (LinearLayout) findViewById(R.id.layoutMatrizA);\n\t\tlayoutMatrizB = (LinearLayout) findViewById(R.id.layoutMatrizB);\n\t\tlayoutMatrizC = (LinearLayout) findViewById(R.id.layoutMatrizC);\n\n\t\tbtnAdicionarElementos = (Button) findViewById(R.id.btnAdicionarElemento);\n"
                                     }
@@ -925,74 +870,6 @@
                     ],
                     "partialFingerprints": {
                         "sourceContext/v1": "44896492e2501a56"
-                    }
-                },
-                {
-                    "ruleId": "RedundantLabel",
-                    "ruleIndex": 14,
-                    "message": {
-                        "text": "Redundant label can be removed"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 11,
-                                    "startColumn": 13,
-                                    "endLine": 11,
-                                    "endColumn": 45,
-                                    "charOffset": 383,
-                                    "charLength": 32,
-                                    "snippet": {
-                                        "text": "android:label=\"@string/app_name\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 9,
-                                    "endLine": 14,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.MainActivity\"\n            android:exported=\"true\"\n            android:label=\"@string/app_name\" >\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\" />\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Delete label"
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 11,
-                                                "startColumn": 13,
-                                                "charOffset": 383,
-                                                "endLine": 11,
-                                                "endColumn": 46,
-                                                "charLength": 33
-                                            },
-                                            "insertedContent": {
-                                                "text": "\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "e44de6dfff8c1a7e"
                     }
                 },
                 {
@@ -1051,7 +928,7 @@
                                                 "charLength": 5
                                             },
                                             "insertedContent": {
-                                                "text": "9.8.2\n"
+                                                "text": "9.8.2"
                                             }
                                         }
                                     ]
@@ -1119,7 +996,7 @@
                                                 "charLength": 5
                                             },
                                             "insertedContent": {
-                                                "text": "9.5.0\n"
+                                                "text": "9.5.0"
                                             }
                                         }
                                     ]
@@ -1133,7 +1010,7 @@
                 },
                 {
                     "ruleId": "GradleDependency",
-                    "ruleIndex": 4,
+                    "ruleIndex": 3,
                     "message": {
                         "text": "A newer version of compileSdk than 34 is available: 37",
                         "markdown": "A newer version of `compileSdk` than 34 is available: 37"
@@ -1150,7 +1027,7 @@
                                     "startColumn": 5,
                                     "endLine": 7,
                                     "endColumn": 20,
-                                    "charOffset": 106,
+                                    "charOffset": 104,
                                     "charLength": 15,
                                     "snippet": {
                                         "text": "compileSdk = 34"
@@ -1160,7 +1037,7 @@
                                     "startLine": 5,
                                     "endLine": 10,
                                     "snippet": {
-                                        "text": "android {\n    namespace = \"br.edu.fatecgarca.matrizes\"\n    compileSdk = 34\n\n    defaultConfig {\n"
+                                        "text": "android {\n    namespace = \"br.com.arsgapps.matrizes\"\n    compileSdk = 34\n\n    defaultConfig {\n"
                                     }
                                 }
                             }
@@ -1182,13 +1059,13 @@
                                             "deletedRegion": {
                                                 "startLine": 7,
                                                 "startColumn": 18,
-                                                "charOffset": 119,
+                                                "charOffset": 117,
                                                 "endLine": 7,
                                                 "endColumn": 20,
                                                 "charLength": 2
                                             },
                                             "insertedContent": {
-                                                "text": "37\n"
+                                                "text": "37"
                                             }
                                         }
                                     ]
@@ -1197,12 +1074,12 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "c415a1ceb2f24e3d"
+                        "sourceContext/v1": "9feb33c7476c22f4"
                     }
                 },
                 {
                     "ruleId": "GradleDependency",
-                    "ruleIndex": 4,
+                    "ruleIndex": 3,
                     "message": {
                         "text": "A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.19.1"
                     },
@@ -1218,7 +1095,7 @@
                                     "startColumn": 20,
                                     "endLine": 39,
                                     "endColumn": 51,
-                                    "charOffset": 789,
+                                    "charOffset": 785,
                                     "charLength": 31,
                                     "snippet": {
                                         "text": "\"androidx.core:core-ktx:1.10.1\""
@@ -1250,13 +1127,13 @@
                                             "deletedRegion": {
                                                 "startLine": 39,
                                                 "startColumn": 44,
-                                                "charOffset": 813,
+                                                "charOffset": 809,
                                                 "endLine": 39,
                                                 "endColumn": 50,
                                                 "charLength": 6
                                             },
                                             "insertedContent": {
-                                                "text": "1.19.1\n"
+                                                "text": "1.19.1"
                                             }
                                         }
                                     ]
@@ -1269,353 +1146,8 @@
                     }
                 },
                 {
-                    "ruleId": "LockedOrientationActivity",
-                    "ruleIndex": 8,
-                    "message": {
-                        "text": "Expecting android:screenOrientation=\"unspecified\" or \"fullSensor\" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices",
-                        "markdown": "Expecting `android:screenOrientation=\"unspecified\"` or `\"fullSensor\"` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 21,
-                                    "startColumn": 13,
-                                    "endLine": 21,
-                                    "endColumn": 49,
-                                    "charOffset": 783,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 19,
-                                    "endLine": 24,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Set screenOrientation=\"fullSensor\""
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 21,
-                                                "startColumn": 13,
-                                                "charOffset": 783,
-                                                "endLine": 21,
-                                                "endColumn": 49,
-                                                "charLength": 36
-                                            },
-                                            "insertedContent": {
-                                                "text": "android:screenOrientation=\"fullSensor\"\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "ecdd96e052b5b843"
-                    }
-                },
-                {
-                    "ruleId": "LockedOrientationActivity",
-                    "ruleIndex": 8,
-                    "message": {
-                        "text": "Expecting android:screenOrientation=\"unspecified\" or \"fullSensor\" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices",
-                        "markdown": "Expecting `android:screenOrientation=\"unspecified\"` or `\"fullSensor\"` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 26,
-                                    "startColumn": 13,
-                                    "endLine": 26,
-                                    "endColumn": 49,
-                                    "charOffset": 975,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 24,
-                                    "endLine": 29,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.OrdemMatriz\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Set screenOrientation=\"fullSensor\""
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 26,
-                                                "startColumn": 13,
-                                                "charOffset": 975,
-                                                "endLine": 26,
-                                                "endColumn": 49,
-                                                "charLength": 36
-                                            },
-                                            "insertedContent": {
-                                                "text": "android:screenOrientation=\"fullSensor\"\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "d203aaaa69737684"
-                    }
-                },
-                {
-                    "ruleId": "LockedOrientationActivity",
-                    "ruleIndex": 8,
-                    "message": {
-                        "text": "Expecting android:screenOrientation=\"unspecified\" or \"fullSensor\" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices",
-                        "markdown": "Expecting `android:screenOrientation=\"unspecified\"` or `\"fullSensor\"` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 31,
-                                    "startColumn": 13,
-                                    "endLine": 31,
-                                    "endColumn": 49,
-                                    "charOffset": 1176,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 29,
-                                    "endLine": 34,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.controller.Operacoes\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\"\n            android:theme=\"@android:style/Theme.Dialog\" >\n        </activity>\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Set screenOrientation=\"fullSensor\""
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 31,
-                                                "startColumn": 13,
-                                                "charOffset": 1176,
-                                                "endLine": 31,
-                                                "endColumn": 49,
-                                                "charLength": 36
-                                            },
-                                            "insertedContent": {
-                                                "text": "android:screenOrientation=\"fullSensor\"\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "503cb88031ddb628"
-                    }
-                },
-                {
-                    "ruleId": "LockedOrientationActivity",
-                    "ruleIndex": 8,
-                    "message": {
-                        "text": "Expecting android:screenOrientation=\"unspecified\" or \"fullSensor\" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices",
-                        "markdown": "Expecting `android:screenOrientation=\"unspecified\"` or `\"fullSensor\"` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 37,
-                                    "startColumn": 13,
-                                    "endLine": 37,
-                                    "endColumn": 49,
-                                    "charOffset": 1427,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 35,
-                                    "endLine": 40,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.MultiConstante\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Set screenOrientation=\"fullSensor\""
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 37,
-                                                "startColumn": 13,
-                                                "charOffset": 1427,
-                                                "endLine": 37,
-                                                "endColumn": 49,
-                                                "charLength": 36
-                                            },
-                                            "insertedContent": {
-                                                "text": "android:screenOrientation=\"fullSensor\"\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "87947b1283822d88"
-                    }
-                },
-                {
-                    "ruleId": "LockedOrientationActivity",
-                    "ruleIndex": 8,
-                    "message": {
-                        "text": "Expecting android:screenOrientation=\"unspecified\" or \"fullSensor\" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices",
-                        "markdown": "Expecting `android:screenOrientation=\"unspecified\"` or `\"fullSensor\"` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 42,
-                                    "startColumn": 13,
-                                    "endLine": 42,
-                                    "endColumn": 49,
-                                    "charOffset": 1621,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 40,
-                                    "endLine": 45,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.MultiMatrizes\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n    </application>\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Set screenOrientation=\"fullSensor\""
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "app/src/main/AndroidManifest.xml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 42,
-                                                "startColumn": 13,
-                                                "charOffset": 1621,
-                                                "endLine": 42,
-                                                "endColumn": 49,
-                                                "charLength": 36
-                                            },
-                                            "insertedContent": {
-                                                "text": "android:screenOrientation=\"fullSensor\"\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "190f66dcbd27f1ae"
-                    }
-                },
-                {
                     "ruleId": "NewerVersionAvailable",
-                    "ruleIndex": 10,
+                    "ruleIndex": 8,
                     "message": {
                         "text": "A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.20 is available: 2.4.21"
                     },
@@ -1669,7 +1201,7 @@
                                                 "charLength": 6
                                             },
                                             "insertedContent": {
-                                                "text": "2.4.21\n"
+                                                "text": "2.4.21"
                                             }
                                         }
                                     ]
@@ -1682,208 +1214,8 @@
                     }
                 },
                 {
-                    "ruleId": "DiscouragedApi",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 21,
-                                    "startColumn": 13,
-                                    "endLine": 21,
-                                    "endColumn": 49,
-                                    "charOffset": 783,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 19,
-                                    "endLine": 24,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "ecdd96e052b5b843"
-                    }
-                },
-                {
-                    "ruleId": "DiscouragedApi",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 26,
-                                    "startColumn": 13,
-                                    "endLine": 26,
-                                    "endColumn": 49,
-                                    "charOffset": 975,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 24,
-                                    "endLine": 29,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.OrdemMatriz\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "d203aaaa69737684"
-                    }
-                },
-                {
-                    "ruleId": "DiscouragedApi",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 31,
-                                    "startColumn": 13,
-                                    "endLine": 31,
-                                    "endColumn": 49,
-                                    "charOffset": 1176,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 29,
-                                    "endLine": 34,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.controller.Operacoes\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\"\n            android:theme=\"@android:style/Theme.Dialog\" >\n        </activity>\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "503cb88031ddb628"
-                    }
-                },
-                {
-                    "ruleId": "DiscouragedApi",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 37,
-                                    "startColumn": 13,
-                                    "endLine": 37,
-                                    "endColumn": 49,
-                                    "charOffset": 1427,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 35,
-                                    "endLine": 40,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.MultiConstante\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n        <activity\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "87947b1283822d88"
-                    }
-                },
-                {
-                    "ruleId": "DiscouragedApi",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/AndroidManifest.xml"
-                                },
-                                "region": {
-                                    "startLine": 42,
-                                    "startColumn": 13,
-                                    "endLine": 42,
-                                    "endColumn": 49,
-                                    "charOffset": 1621,
-                                    "charLength": 36,
-                                    "snippet": {
-                                        "text": "android:screenOrientation=\"portrait\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 40,
-                                    "endLine": 45,
-                                    "snippet": {
-                                        "text": "            android:name=\"br.edu.fatecgarca.matrizes.MultiMatrizes\"\n            android:exported=\"false\"\n            android:screenOrientation=\"portrait\" >\n        </activity>\n    </application>\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "190f66dcbd27f1ae"
-                    }
-                },
-                {
                     "ruleId": "ObsoleteSdkInt",
-                    "ruleIndex": 11,
+                    "ruleIndex": 9,
                     "message": {
                         "text": "This folder configuration (v11) is unnecessary; minSdkVersion is 21. Merge all the resources in this folder into values.",
                         "markdown": "This folder configuration (`v11`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `values`."
@@ -1907,7 +1239,7 @@
                 },
                 {
                     "ruleId": "ObsoleteSdkInt",
-                    "ruleIndex": 11,
+                    "ruleIndex": 9,
                     "message": {
                         "text": "This folder configuration (v14) is unnecessary; minSdkVersion is 21. Merge all the resources in this folder into values.",
                         "markdown": "This folder configuration (`v14`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `values`."
@@ -1931,7 +1263,7 @@
                 },
                 {
                     "ruleId": "Overdraw",
-                    "ruleIndex": 13,
+                    "ruleIndex": 11,
                     "message": {
                         "text": "Possible overdraw: Root element paints background @drawable/fundo with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)",
                         "markdown": "Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
@@ -1970,7 +1302,7 @@
                 },
                 {
                     "ruleId": "Overdraw",
-                    "ruleIndex": 13,
+                    "ruleIndex": 11,
                     "message": {
                         "text": "Possible overdraw: Root element paints background @drawable/fundo with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)",
                         "markdown": "Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
@@ -2009,7 +1341,7 @@
                 },
                 {
                     "ruleId": "Overdraw",
-                    "ruleIndex": 13,
+                    "ruleIndex": 11,
                     "message": {
                         "text": "Possible overdraw: Root element paints background @drawable/fundo with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)",
                         "markdown": "Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
@@ -2048,7 +1380,7 @@
                 },
                 {
                     "ruleId": "Overdraw",
-                    "ruleIndex": 13,
+                    "ruleIndex": 11,
                     "message": {
                         "text": "Possible overdraw: Root element paints background @drawable/fundo with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)",
                         "markdown": "Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
@@ -2087,7 +1419,7 @@
                 },
                 {
                     "ruleId": "Overdraw",
-                    "ruleIndex": 13,
+                    "ruleIndex": 11,
                     "message": {
                         "text": "Possible overdraw: Root element paints background @drawable/fundo with a theme that also paints a background (inferred theme is @android:style/Theme.Holo)",
                         "markdown": "Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
@@ -2126,7 +1458,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.drawable.fundo_matriz appears to be unused",
                         "markdown": "The resource `R.drawable.fundo_matriz` appears to be unused"
@@ -2150,7 +1482,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.string.action_settings appears to be unused",
                         "markdown": "The resource `R.string.action_settings` appears to be unused"
@@ -2191,7 +1523,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.string.dialogo_titulo appears to be unused",
                         "markdown": "The resource `R.string.dialogo_titulo` appears to be unused"
@@ -2232,7 +1564,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.string.soma_matrizes appears to be unused",
                         "markdown": "The resource `R.string.soma_matrizes` appears to be unused"
@@ -2273,7 +1605,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.style.AppBaseTheme appears to be unused",
                         "markdown": "The resource `R.style.AppBaseTheme` appears to be unused"
@@ -2314,7 +1646,7 @@
                 },
                 {
                     "ruleId": "UnusedResources",
-                    "ruleIndex": 16,
+                    "ruleIndex": 13,
                     "message": {
                         "text": "The resource R.style.AppTheme appears to be unused",
                         "markdown": "The resource `R.style.AppTheme` appears to be unused"
@@ -2355,7 +1687,7 @@
                 },
                 {
                     "ruleId": "UselessParent",
-                    "ruleIndex": 17,
+                    "ruleIndex": 14,
                     "message": {
                         "text": "This ScrollView layout or its LinearLayout parent is possibly unnecessary; transfer the background attribute to the other view",
                         "markdown": "This `ScrollView` layout or its `LinearLayout` parent is possibly unnecessary; transfer the `background` attribute to the other view"
@@ -2394,7 +1726,7 @@
                 },
                 {
                     "ruleId": "UselessParent",
-                    "ruleIndex": 17,
+                    "ruleIndex": 14,
                     "message": {
                         "text": "This ScrollView layout or its LinearLayout parent is possibly unnecessary; transfer the background attribute to the other view",
                         "markdown": "This `ScrollView` layout or its `LinearLayout` parent is possibly unnecessary; transfer the `background` attribute to the other view"
@@ -2433,7 +1765,7 @@
                 },
                 {
                     "ruleId": "UselessParent",
-                    "ruleIndex": 17,
+                    "ruleIndex": 14,
                     "message": {
                         "text": "This ScrollView layout or its LinearLayout parent is possibly unnecessary; transfer the background attribute to the other view",
                         "markdown": "This `ScrollView` layout or its `LinearLayout` parent is possibly unnecessary; transfer the `background` attribute to the other view"
@@ -2472,7 +1804,7 @@
                 },
                 {
                     "ruleId": "IconDensities",
-                    "ruleIndex": 6,
+                    "ruleIndex": 5,
                     "message": {
                         "text": "Missing the following drawables in drawable-mdpi: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml",
                         "markdown": "Missing the following drawables in `drawable-mdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml"
@@ -2494,7 +1826,7 @@
                 },
                 {
                     "ruleId": "IconDensities",
-                    "ruleIndex": 6,
+                    "ruleIndex": 5,
                     "message": {
                         "text": "Missing the following drawables in drawable-xhdpi: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml",
                         "markdown": "Missing the following drawables in `drawable-xhdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml"
@@ -2516,7 +1848,7 @@
                 },
                 {
                     "ruleId": "IconDensities",
-                    "ruleIndex": 6,
+                    "ruleIndex": 5,
                     "message": {
                         "text": "Missing the following drawables in drawable-xxhdpi: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml",
                         "markdown": "Missing the following drawables in `drawable-xxhdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml"
@@ -2590,7 +1922,7 @@
                                                 "charOffset": 3021
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -2615,7 +1947,7 @@
                                                 "charOffset": 3021
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -2681,7 +2013,7 @@
                                                 "charOffset": 6549
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -2706,7 +2038,7 @@
                                                 "charOffset": 6591
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -2772,7 +2104,7 @@
                                                 "charOffset": 3134
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -2797,7 +2129,7 @@
                                                 "charOffset": 3176
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -2863,7 +2195,7 @@
                                                 "charOffset": 4207
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -2888,7 +2220,7 @@
                                                 "charOffset": 4249
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -2954,7 +2286,7 @@
                                                 "charOffset": 2160
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -2979,7 +2311,7 @@
                                                 "charOffset": 2160
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -3045,7 +2377,7 @@
                                                 "charOffset": 3543
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -3070,7 +2402,7 @@
                                                 "charOffset": 3543
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -3136,7 +2468,7 @@
                                                 "charOffset": 3006
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -3161,7 +2493,7 @@
                                                 "charOffset": 3006
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -3227,7 +2559,7 @@
                                                 "charOffset": 4076
                                             },
                                             "insertedContent": {
-                                                "text": "android:autofillHints=\"\" \n"
+                                                "text": "android:autofillHints=\"\" "
                                             }
                                         }
                                     ]
@@ -3252,7 +2584,7 @@
                                                 "charOffset": 4076
                                             },
                                             "insertedContent": {
-                                                "text": "android:importantForAutofill=\"no\" \n"
+                                                "text": "android:importantForAutofill=\"no\" "
                                             }
                                         }
                                     ]
@@ -3266,7 +2598,7 @@
                 },
                 {
                     "ruleId": "UseTomlInstead",
-                    "ruleIndex": 18,
+                    "ruleIndex": 15,
                     "message": {
                         "text": "Use version catalog instead (androidx.core:core-ktx is already available as androidx-core-ktx, but using version 1.19.1 instead)",
                         "markdown": "Use version catalog instead (androidx.core:core-ktx is already available as `androidx-core-ktx`, but using version 1.19.1 instead)"
@@ -3283,7 +2615,7 @@
                                     "startColumn": 20,
                                     "endLine": 39,
                                     "endColumn": 51,
-                                    "charOffset": 789,
+                                    "charOffset": 785,
                                     "charLength": 31,
                                     "snippet": {
                                         "text": "\"androidx.core:core-ktx:1.10.1\""
@@ -3318,7 +2650,7 @@
                                                 "charOffset": 25
                                             },
                                             "insertedContent": {
-                                                "text": "androidxCoreKtx = \"1.10.1\"\n\n"
+                                                "text": "androidxCoreKtx = \"1.10.1\"\n"
                                             }
                                         },
                                         {
@@ -3328,7 +2660,7 @@
                                                 "charOffset": 675
                                             },
                                             "insertedContent": {
-                                                "text": "core-ktx-v1101 = { module = \"androidx.core:core-ktx\", version.ref = \"androidxCoreKtx\" }\n\n"
+                                                "text": "core-ktx-v1101 = { module = \"androidx.core:core-ktx\", version.ref = \"androidxCoreKtx\" }\n"
                                             }
                                         }
                                     ]
@@ -3343,13 +2675,13 @@
                                             "deletedRegion": {
                                                 "startLine": 39,
                                                 "startColumn": 20,
-                                                "charOffset": 789,
+                                                "charOffset": 785,
                                                 "endLine": 39,
                                                 "endColumn": 51,
                                                 "charLength": 31
                                             },
                                             "insertedContent": {
-                                                "text": "libs.core.ktx.v1101\n"
+                                                "text": "libs.core.ktx.v1101"
                                             }
                                         }
                                     ]
@@ -3372,13 +2704,13 @@
                                             "deletedRegion": {
                                                 "startLine": 39,
                                                 "startColumn": 20,
-                                                "charOffset": 789,
+                                                "charOffset": 785,
                                                 "endLine": 39,
                                                 "endColumn": 51,
                                                 "charLength": 31
                                             },
                                             "insertedContent": {
-                                                "text": "libs.androidx.core.ktx\n"
+                                                "text": "libs.androidx.core.ktx"
                                             }
                                         }
                                     ]
@@ -3392,7 +2724,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3431,7 +2763,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3470,7 +2802,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3509,7 +2841,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3548,7 +2880,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3587,7 +2919,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3626,7 +2958,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3665,7 +2997,7 @@
                 },
                 {
                     "ruleId": "LabelFor",
-                    "ruleIndex": 7,
+                    "ruleIndex": 6,
                     "message": {
                         "text": "Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint",
                         "markdown": "Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
@@ -3704,7 +3036,7 @@
                 },
                 {
                     "ruleId": "HardcodedText",
-                    "ruleIndex": 5,
+                    "ruleIndex": 4,
                     "message": {
                         "text": "Hardcoded string \"2\", should use @string resource",
                         "markdown": "Hardcoded string \"2\", should use `@string` resource"
@@ -3743,7 +3075,7 @@
                 },
                 {
                     "ruleId": "HardcodedText",
-                    "ruleIndex": 5,
+                    "ruleIndex": 4,
                     "message": {
                         "text": "Hardcoded string \"2\", should use @string resource",
                         "markdown": "Hardcoded string \"2\", should use `@string` resource"
@@ -3782,7 +3114,7 @@
                 },
                 {
                     "ruleId": "RtlHardcoded",
-                    "ruleIndex": 15,
+                    "ruleIndex": 12,
                     "message": {
                         "text": "Consider replacing android:layout_marginLeft with android:layout_marginStart=\"5dp\" to better support right-to-left layouts",
                         "markdown": "Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=\"5dp\"` to better support right-to-left layouts"
@@ -3837,7 +3169,7 @@
                                                 "charLength": 17
                                             },
                                             "insertedContent": {
-                                                "text": "layout_marginStart\n"
+                                                "text": "layout_marginStart"
                                             }
                                         }
                                     ]
@@ -3851,7 +3183,7 @@
                 },
                 {
                     "ruleId": "RtlHardcoded",
-                    "ruleIndex": 15,
+                    "ruleIndex": 12,
                     "message": {
                         "text": "Consider replacing android:layout_marginLeft with android:layout_marginStart=\"5dp\" to better support right-to-left layouts",
                         "markdown": "Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=\"5dp\"` to better support right-to-left layouts"
@@ -3906,7 +3238,7 @@
                                                 "charLength": 17
                                             },
                                             "insertedContent": {
-                                                "text": "layout_marginStart\n"
+                                                "text": "layout_marginStart"
                                             }
                                         }
                                     ]
@@ -3920,7 +3252,7 @@
                 },
                 {
                     "ruleId": "RtlHardcoded",
-                    "ruleIndex": 15,
+                    "ruleIndex": 12,
                     "message": {
                         "text": "Consider replacing android:layout_marginLeft with android:layout_marginStart=\"5dp\" to better support right-to-left layouts",
                         "markdown": "Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=\"5dp\"` to better support right-to-left layouts"
@@ -3975,7 +3307,7 @@
                                                 "charLength": 17
                                             },
                                             "insertedContent": {
-                                                "text": "layout_marginStart\n"
+                                                "text": "layout_marginStart"
                                             }
                                         }
                                     ]

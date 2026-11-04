@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 1 error and 68 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 1 error and 57 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Wed Nov 04 13:52:42 GMT-03:00 2026 by AGP (9.4.1)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Wed Nov 04 14:05:46 GMT-03:00 2026 by AGP (9.5.0)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -190,12 +190,9 @@ document.getElementById(id).style.display = 'none';
       <a class="mdl-navigation__link" href="#DefaultLocale"><i class="material-icons warning-icon">warning</i>Implied default locale in case conversion (9)</a>
       <a class="mdl-navigation__link" href="#OldTargetApi"><i class="material-icons warning-icon">warning</i>Target SDK attribute is not targeting latest version (1)</a>
       <a class="mdl-navigation__link" href="#MissingInflatedId"><i class="material-icons error-icon">error</i>ID not found in inflated resource (1)</a>
-      <a class="mdl-navigation__link" href="#RedundantLabel"><i class="material-icons warning-icon">warning</i>Redundant label on activity (1)</a>
       <a class="mdl-navigation__link" href="#AndroidGradlePluginVersion"><i class="material-icons warning-icon">warning</i>Obsolete Android Gradle Plugin Version (2)</a>
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (2)</a>
-      <a class="mdl-navigation__link" href="#LockedOrientationActivity"><i class="material-icons warning-icon">warning</i>Incompatible screenOrientation value (5)</a>
       <a class="mdl-navigation__link" href="#NewerVersionAvailable"><i class="material-icons warning-icon">warning</i>Newer Library Versions Available (1)</a>
-      <a class="mdl-navigation__link" href="#DiscouragedApi"><i class="material-icons warning-icon">warning</i>Using discouraged APIs (5)</a>
       <a class="mdl-navigation__link" href="#ObsoleteSdkInt"><i class="material-icons warning-icon">warning</i>Obsolete SDK_INT Version Check (2)</a>
       <a class="mdl-navigation__link" href="#Overdraw"><i class="material-icons warning-icon">warning</i>Overdraw: Painting regions more than once (5)</a>
       <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (6)</a>
@@ -233,23 +230,14 @@ document.getElementById(id).style.display = 'none';
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons error-icon">error</i>
 <a href="#MissingInflatedId">MissingInflatedId</a>: ID not found in inflated resource</td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#RedundantLabel">RedundantLabel</a>: Redundant label on activity</td></tr>
-<tr>
 <td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#AndroidGradlePluginVersion">AndroidGradlePluginVersion</a>: Obsolete Android Gradle Plugin Version</td></tr>
 <tr>
 <td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
 <tr>
-<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#LockedOrientationActivity">LockedOrientationActivity</a>: Incompatible screenOrientation value</td></tr>
-<tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#NewerVersionAvailable">NewerVersionAvailable</a>: Newer Library Versions Available</td></tr>
-<tr>
-<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#DiscouragedApi">DiscouragedApi</a>: Using discouraged APIs</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
 </td></tr>
 <tr>
@@ -296,7 +284,7 @@ document.getElementById(id).style.display = 'none';
 <a href="#RtlHardcoded">RtlHardcoded</a>: Using left/right instead of start/end attributes</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (3)</a>
 </td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (39)</a>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (45)</a>
 </td></tr>
 </table>
 <br/>              </div>
@@ -315,7 +303,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MainActivity.java">../../src/main/java/br/edu/fatecgarca/matrizes/MainActivity.java</a>:9</span>: <span class="message">This block comment looks like it was intended to be a javadoc comment</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MainActivity.java">../../src/main/java/br/com/arsgapps/matrizes/MainActivity.java</a>:9</span>: <span class="message">This block comment looks like it was intended to be a javadoc comment</span><br /><pre class="errorlines">
 <span class="lineno">  6 </span><span class="keyword">import</span> android.view.View;
 <span class="lineno">  7 </span>
 <span class="lineno">  8 </span><span class="comment">/*
@@ -370,7 +358,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:126</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:126</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 123 </span>                            TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
 <span class="lineno"> 124 </span>                            elemento.setTextColor(getResources().getColor(
 <span class="lineno"> 125 </span>                                    android.R.color.black));
@@ -380,7 +368,7 @@ Dismiss</button>            </div>
 <span class="lineno"> 129 </span>                                    LayoutParams.WRAP_CONTENT));
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:152</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:152</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 149 </span>                            TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
 <span class="lineno"> 150 </span>                            elemento.setTextColor(getResources().getColor(
 <span class="lineno"> 151 </span>                                    android.R.color.black));
@@ -390,7 +378,7 @@ Dismiss</button>            </div>
 <span class="lineno"> 155 </span>                                    LayoutParams.WRAP_CONTENT));
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:179</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:179</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 176 </span>                            TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
 <span class="lineno"> 177 </span>                            elemento.setTextColor(getResources().getColor(
 <span class="lineno"> 178 </span>                                    android.R.color.black));
@@ -400,7 +388,7 @@ Dismiss</button>            </div>
 <span class="lineno"> 182 </span>                                    LayoutParams.WRAP_CONTENT));
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:204</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:204</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 201 </span>                            TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
 <span class="lineno"> 202 </span>                            elemento.setTextColor(getResources().getColor(
 <span class="lineno"> 203 </span>                                    android.R.color.black));
@@ -410,7 +398,7 @@ Dismiss</button>            </div>
 <span class="lineno"> 207 </span>                                    LayoutParams.WRAP_CONTENT));
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:240</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:240</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 237 </span>                        <span class="keyword">float</span> res2 = matrizC[i][j];
 <span class="lineno"> 238 </span>
 <span class="lineno"> 239 </span>                        TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
@@ -422,7 +410,7 @@ Dismiss</button>            </div>
 
 <button class="mdl-button mdl-js-button mdl-button--primary" id="DefaultLocaleDivLink" onclick="reveal('DefaultLocaleDiv');" />+ 4 More Occurrences...</button>
 <div id="DefaultLocaleDiv" style="display: none">
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java">../../src/main/java/br/edu/fatecgarca/matrizes/MultiMatrizes.java</a>:276</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java">../../src/main/java/br/com/arsgapps/matrizes/MultiMatrizes.java</a>:276</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
 <span class="lineno"> 273 </span>                        <span class="keyword">float</span> res2 = matrizC[i][j];
 <span class="lineno"> 274 </span>
 <span class="lineno"> 275 </span>                        TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
@@ -432,34 +420,34 @@ Dismiss</button>            </div>
 <span class="lineno"> 279 </span>                        elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java">../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java</a>:70</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
-<span class="lineno">  67 </span>                <span class="keyword">float</span> res = matrizC[i][j];
-<span class="lineno">  68 </span>
-<span class="lineno">  69 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
-<span class="caretline"><span class="lineno">  70 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  71 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
-<span class="lineno">  72 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-<span class="lineno">  73 </span>                layout.addView(elemento);
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java">../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java</a>:71</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno">  68 </span>                <span class="keyword">float</span> res = matrizC[i][j];
+<span class="lineno">  69 </span>
+<span class="lineno">  70 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
+<span class="caretline"><span class="lineno">  71 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  72 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
+<span class="lineno">  73 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+<span class="lineno">  74 </span>                layout.addView(elemento);
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java">../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java</a>:99</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
-<span class="lineno">  96 </span>                <span class="keyword">float</span> res = matrizC[i][j];
-<span class="lineno">  97 </span>
-<span class="lineno">  98 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
-<span class="caretline"><span class="lineno">  99 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 100 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
-<span class="lineno"> 101 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-<span class="lineno"> 102 </span>                layout.addView(elemento);
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java">../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java</a>:100</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno">  97 </span>                <span class="keyword">float</span> res = matrizC[i][j];
+<span class="lineno">  98 </span>
+<span class="lineno">  99 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
+<span class="caretline"><span class="lineno"> 100 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 101 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
+<span class="lineno"> 102 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+<span class="lineno"> 103 </span>                layout.addView(elemento);
 </pre>
 
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java">../../src/main/java/br/edu/fatecgarca/matrizes/controller/Operacoes.java</a>:127</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
-<span class="lineno"> 124 </span>                <span class="keyword">float</span> res = matrizC[i][j];
-<span class="lineno"> 125 </span>
-<span class="lineno"> 126 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
-<span class="caretline"><span class="lineno"> 127 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 128 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
-<span class="lineno"> 129 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-<span class="lineno"> 130 </span>                layout.addView(elemento);
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java">../../src/main/java/br/com/arsgapps/matrizes/controller/Operacoes.java</a>:128</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 125 </span>                <span class="keyword">float</span> res = matrizC[i][j];
+<span class="lineno"> 126 </span>
+<span class="lineno"> 127 </span>                TextView elemento = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);
+<span class="caretline"><span class="lineno"> 128 </span>                elemento.setText(<span class="warning">String.format(<span class="string">"%.2f"</span>, res)</span>.concat(<span class="string">"  "</span>));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 129 </span>                elemento.setLayoutParams(<span class="keyword">new</span> LayoutParams(
+<span class="lineno"> 130 </span>                        LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+<span class="lineno"> 131 </span>                layout.addView(elemento);
 </pre>
 
 </div>
@@ -504,7 +492,7 @@ Dismiss</button>            </div>
 <div class="warningslist">
 <span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:12</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the <code>android.os.Build.VERSION_CODES</code> javadoc for details.</span><br /><pre class="errorlines">
 <span class="lineno">  9 </span>    defaultConfig {
-<span class="lineno"> 10 </span>        applicationId = "br.edu.fatecgarca.matrizes"
+<span class="lineno"> 10 </span>        applicationId = "br.com.arsgapps.matrizes"
 <span class="lineno"> 11 </span>        minSdk = 21
 <span class="caretline"><span class="lineno"> 12 </span>        <span class="warning">targetSdk = 34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno"> 13 </span>        versionCode = 1
@@ -553,14 +541,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/br/edu/fatecgarca/matrizes/SomaSubtracaoMatriz.java">../../src/main/java/br/edu/fatecgarca/matrizes/SomaSubtracaoMatriz.java</a>:51</span>: <span class="message"><code>@layout/activity_soma</code> does not contain a declaration with id <code>layoutMatrizC</code></span><br /><pre class="errorlines">
-<span class="lineno">  48 </span>
-<span class="lineno">  49 </span>        layoutMatrizA = (LinearLayout) findViewById(R.id.layoutMatrizA);
-<span class="lineno">  50 </span>        layoutMatrizB = (LinearLayout) findViewById(R.id.layoutMatrizB);
-<span class="caretline"><span class="lineno">  51 </span>        layoutMatrizC = (LinearLayout) findViewById(<span class="error">R.id.layoutMatrizC</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  52 </span>
-<span class="lineno">  53 </span>        btnAdicionarElementos = (Button) findViewById(R.id.btnAdicionarElemento);
-<span class="lineno">  54 </span>        btnAdicionarElementos.setOnClickListener(<span class="keyword">this</span>);
+<span class="location"><a href="../../src/main/java/br/com/arsgapps/matrizes/SomaSubtracaoMatriz.java">../../src/main/java/br/com/arsgapps/matrizes/SomaSubtracaoMatriz.java</a>:52</span>: <span class="message"><code>@layout/activity_soma</code> does not contain a declaration with id <code>layoutMatrizC</code></span><br /><pre class="errorlines">
+<span class="lineno">  49 </span>
+<span class="lineno">  50 </span>        layoutMatrizA = (LinearLayout) findViewById(R.id.layoutMatrizA);
+<span class="lineno">  51 </span>        layoutMatrizB = (LinearLayout) findViewById(R.id.layoutMatrizB);
+<span class="caretline"><span class="lineno">  52 </span>        layoutMatrizC = (LinearLayout) findViewById(<span class="error">R.id.layoutMatrizC</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  53 </span>
+<span class="lineno">  54 </span>        btnAdicionarElementos = (Button) findViewById(R.id.btnAdicionarElemento);
+<span class="lineno">  55 </span>        btnAdicionarElementos.setOnClickListener(<span class="keyword">this</span>);
 </pre>
 
 </div>
@@ -587,50 +575,6 @@ Checks calls to layout inflation and makes sure that the referenced ids are foun
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationMissingInflatedIdLink" onclick="reveal('explanationMissingInflatedId');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="MissingInflatedIdCardLink" onclick="hideid('MissingInflatedIdCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="RedundantLabel"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="RedundantLabelCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Redundant label on activity</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:11</span>: <span class="message">Redundant label can be removed</span><br /><pre class="errorlines">
-<span class="lineno">  8 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno">  9 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MainActivity"</span>
-<span class="lineno"> 10 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"true"</span>
-<span class="caretline"><span class="lineno"> 11 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/app_name"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 12 </span>            <span class="tag">&lt;intent-filter></span>
-<span class="lineno"> 13 </span>                <span class="tag">&lt;action</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.intent.action.MAIN"</span> />
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationRedundantLabel" style="display: none;">
-When an activity does not have a label attribute, it will use the one from the application tag. Since the application has already specified the same label, the label on this activity can be omitted.<br/>To suppress this error, use the issue id "RedundantLabel" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">RedundantLabel</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Correctness</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 5/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationRedundantLabelLink" onclick="reveal('explanationRedundantLabel');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="RedundantLabelCardLink" onclick="hideid('RedundantLabelCard');">
 Dismiss</button>            </div>
             </div>
           </section><a name="AndroidGradlePluginVersion"></a>
@@ -698,11 +642,11 @@ Dismiss</button>            </div>
 <span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:7</span>: <span class="message">A newer version of <code>compileSdk</code> than 34 is available: 37</span><br /><pre class="errorlines">
 <span class="lineno">  4 </span>
 <span class="lineno">  5 </span>android {
-<span class="lineno">  6 </span>    namespace = "br.edu.fatecgarca.matrizes"
+<span class="lineno">  6 </span>    namespace = "br.com.arsgapps.matrizes"
 <span class="caretline"><span class="lineno">  7 </span>    <span class="warning">compileSdk = 34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno">  8 </span>
 <span class="lineno">  9 </span>    defaultConfig {
-<span class="lineno"> 10 </span>        applicationId = "br.edu.fatecgarca.matrizes"
+<span class="lineno"> 10 </span>        applicationId = "br.com.arsgapps.matrizes"
 </pre>
 
 <span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:39</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.19.1</span><br /><pre class="errorlines">
@@ -738,88 +682,6 @@ To suppress this error, use the issue id "GradleDependency" as explained in the 
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDependencyLink" onclick="reveal('explanationGradleDependency');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="LockedOrientationActivity"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="LockedOrientationActivityCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Incompatible screenOrientation value</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:21</span>: <span class="message">Expecting <code>android:screenOrientation="unspecified"</code> or <code>"fullSensor"</code> for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices</span><br /><pre class="errorlines">
-<span class="lineno"> 18 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 19 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz"</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 21 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 23 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.OrdemMatriz"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:26</span>: <span class="message">Expecting <code>android:screenOrientation="unspecified"</code> or <code>"fullSensor"</code> for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.OrdemMatriz"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 28 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 29 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.controller.Operacoes"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:31</span>: <span class="message">Expecting <code>android:screenOrientation="unspecified"</code> or <code>"fullSensor"</code> for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices</span><br /><pre class="errorlines">
-<span class="lineno"> 28 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 29 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.controller.Operacoes"</span>
-<span class="lineno"> 30 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 31 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 32 </span>            <span class="prefix">android:</span><span class="attribute">theme</span>=<span class="value">"@android:style/Theme.Dialog"</span> >
-<span class="lineno"> 33 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 34 </span>        <span class="tag">&lt;activity</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:37</span>: <span class="message">Expecting <code>android:screenOrientation="unspecified"</code> or <code>"fullSensor"</code> for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices</span><br /><pre class="errorlines">
-<span class="lineno"> 34 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 35 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiConstante"</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 37 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 38 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 39 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiMatrizes"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:42</span>: <span class="message">Expecting <code>android:screenOrientation="unspecified"</code> or <code>"fullSensor"</code> for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices</span><br /><pre class="errorlines">
-<span class="lineno"> 39 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiMatrizes"</span>
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 42 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 43 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 44 </span>    <span class="tag">&lt;/application></span>
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationLockedOrientationActivity" style="display: none;">
-The <code>&lt;activity></code> element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation="unspecified"`or <code>fullSensor</code> attribute.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/topic/arc/window-management">https://developer.android.com/topic/arc/window-management</a>
-</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
-To suppress this error, use the issue id "LockedOrientationActivity" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">LockedOrientationActivity</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Correctness</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 4/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationLockedOrientationActivityLink" onclick="reveal('explanationLockedOrientationActivity');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="LockedOrientationActivityCardLink" onclick="hideid('LockedOrientationActivityCard');">
 Dismiss</button>            </div>
             </div>
           </section><a name="NewerVersionAvailable"></a>
@@ -866,86 +728,6 @@ To suppress this error, use the issue id "NewerVersionAvailable" as explained in
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationNewerVersionAvailableLink" onclick="reveal('explanationNewerVersionAvailable');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="NewerVersionAvailableCardLink" onclick="hideid('NewerVersionAvailableCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="DiscouragedApi"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="DiscouragedApiCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Using discouraged APIs</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:21</span>: <span class="message">Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.</span><br /><pre class="errorlines">
-<span class="lineno"> 18 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 19 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.SomaSubtracaoMatriz"</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 21 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 23 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.OrdemMatriz"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:26</span>: <span class="message">Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.OrdemMatriz"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 28 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 29 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.controller.Operacoes"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:31</span>: <span class="message">Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.</span><br /><pre class="errorlines">
-<span class="lineno"> 28 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 29 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.controller.Operacoes"</span>
-<span class="lineno"> 30 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 31 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 32 </span>            <span class="prefix">android:</span><span class="attribute">theme</span>=<span class="value">"@android:style/Theme.Dialog"</span> >
-<span class="lineno"> 33 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 34 </span>        <span class="tag">&lt;activity</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:37</span>: <span class="message">Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.</span><br /><pre class="errorlines">
-<span class="lineno"> 34 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 35 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiConstante"</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 37 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 38 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 39 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiMatrizes"</span></pre>
-
-<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:42</span>: <span class="message">Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.</span><br /><pre class="errorlines">
-<span class="lineno"> 39 </span>        <span class="tag">&lt;activity</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"br.edu.fatecgarca.matrizes.MultiMatrizes"</span>
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">exported</span>=<span class="value">"false"</span>
-<span class="caretline"><span class="lineno"> 42 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">screenOrientation</span>=<span class="value">"portrait"</span></span> >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 43 </span>        <span class="tag">&lt;/activity></span>
-<span class="lineno"> 44 </span>    <span class="tag">&lt;/application></span>
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationDiscouragedApi" style="display: none;">
-Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior).<br/>To suppress this error, use the issue id "DiscouragedApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">DiscouragedApi</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Correctness</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 2/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationDiscouragedApiLink" onclick="reveal('explanationDiscouragedApi');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="DiscouragedApiCardLink" onclick="hideid('DiscouragedApiCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -1955,11 +1737,31 @@ inline fun assert(condition: () -> Boolean) {
 </div>
 </div>
 <div class="issue">
+<div class="id">GuardedBy<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The GuardedBy analysis checks that fields or methods annotated with <code>@GuardedBy(lock)</code> are only accessed when the specified lock is held.<br/><div class="moreinfo">More info: <a href="https://errorprone.info/bugpattern/GuardedBy">https://errorprone.info/bugpattern/GuardedBy</a>
+</div><br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
 <div class="id">IconExpectedSize<div class="issueSeparator"></div>
 </div>
 <div class="metadata">Disabled By: Default<br/>
 <div class="explanation">
 There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.<br/><div class="moreinfo">More info: <a href="https://d.android.com/r/studio-ui/designer/material/iconography">https://d.android.com/r/studio-ui/designer/material/iconography</a>
+</div><br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">Immutable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+This check validates that all classes annotated with Error Prone's @Immutable annotation are deeply immutable. It also checks that any class extending an @Immutable-annotated class or implementing an @Immutable-annotated interface are also immutable.<br/><div class="moreinfo">More info: <a href="https://errorprone.info/bugpattern/Immutable">https://errorprone.info/bugpattern/Immutable</a>
 </div><br/>
 <br/></div>
 </div>
@@ -2296,6 +2098,47 @@ Ensures that an actions XML file is properly formed<br/>Note: This issue has an 
 <div class="metadata">Disabled By: Default<br/>
 <div class="explanation">
 The version of Cordova used in the app is vulnerable to security issues. Please update to the latest Apache Cordova version.<br/><div class="moreinfo">More info: <a href="https://cordova.apache.org/announcements/2015/11/20/security.html">https://cordova.apache.org/announcements/2015/11/20/security.html</a>
+</div><br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">WatchFaceEditor<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Watch face editor activities must be able to launch in the Wear OS companion app activity task in order to work correctly. Thus only <code>launchMode="standard"</code> is allowed. The watch face will not be shown on the watch if it does not satisfy this requirement.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">WatchFaceForAndroidX<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+If the package depends on <code>androidx.wear:wear-watchface</code>, and an AndroidX watch face declares the <code>wearableConfigurationAction</code> metadata, its value should be <code>androidx.wear.watchface.editor.action.WATCH_FACE_EDITOR</code>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/wearables/watch-faces/configuration">https://developer.android.com/training/wearables/watch-faces/configuration</a>
+</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">WearableActionDuplicate<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+If and only if a watch face service defines <code>wearableConfigurationAction</code> metadata, with the value <code>WATCH_FACE_EDITOR</code>, there should be an activity in the same package, which has an intent filter for <code>WATCH_FACE_EDITOR</code> (with com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION if minSdkVersion is less than 30).<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/wearables/watch-faces/configuration">https://developer.android.com/training/wearables/watch-faces/configuration</a>
+</div><br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">WearableConfigurationAction<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Only when a watch face service defines <code>wearableConfigurationAction</code> metadata, with the value <code>WATCH_FACE_EDITOR</code>, there should be an activity in the same package, which has an intent filter for <code>WATCH_FACE_EDITOR</code> (with <code>com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION</code> if <code>minSdkVersion</code> is less than 30).<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/wearables/watch-faces/configuration">https://developer.android.com/training/wearables/watch-faces/configuration</a>
 </div><br/>
 <br/></div>
 </div>
