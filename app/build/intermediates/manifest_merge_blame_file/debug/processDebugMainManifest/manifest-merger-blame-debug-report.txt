@@ -12,22 +12,22 @@
 9-->INJECTED
 10
 11    <permission
-11-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
 12        android:name="br.com.arsgapps.matrizes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="br.com.arsgapps.matrizes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:4:5-35:19
+17-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:4:5-19:19
 18        android:allowBackup="true"
 18-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.19.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/c5569a88fef0f05366e64854cfad9523/transformed/core-1.19.1/AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 21-->INJECTED
@@ -57,89 +57,88 @@
 33            </intent-filter>
 34        </activity>
 35        <activity
-35-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:19:9-21:40
-36            android:name="br.com.arsgapps.matrizes.SomaSubtracaoMatriz"
-36-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:20:13-48
-37            android:exported="false" />
-37-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:21:13-37
-38        <activity
-38-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:22:9-24:40
-39            android:name="br.com.arsgapps.matrizes.OrdemMatriz"
-39-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:23:13-40
-40            android:exported="false" />
-40-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:24:13-37
-41        <activity
-41-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:25:9-28:59
-42            android:name="br.com.arsgapps.matrizes.controller.Operacoes"
-42-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:26:13-49
-43            android:exported="false"
-43-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:27:13-37
-44            android:theme="@android:style/Theme.Dialog" />
-44-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:28:13-56
-45        <activity
-45-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:29:9-31:40
-46            android:name="br.com.arsgapps.matrizes.MultiConstante"
-46-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:30:13-43
-47            android:exported="false" />
-47-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:31:13-37
-48        <activity
-48-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:32:9-34:40
-49            android:name="br.com.arsgapps.matrizes.MultiMatrizes"
-49-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:33:13-42
-50            android:exported="false" />
-50-->/Users/andreguedes/AndroidStudioProjects/matrix/app/src/main/AndroidManifest.xml:34:13-37
-51
-52        <provider
-52-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-53            android:name="androidx.startup.InitializationProvider"
-53-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:25:13-67
-54            android:authorities="br.com.arsgapps.matrizes.androidx-startup"
-54-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:26:13-68
-55            android:exported="false" >
-55-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:27:13-37
+35-->[androidx.compose.ui:ui-tooling-android:1.12.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/16785472ada9860e818fbc3f49ba7c96/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+36            android:name="androidx.compose.ui.tooling.PreviewActivity"
+36-->[androidx.compose.ui:ui-tooling-android:1.12.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/16785472ada9860e818fbc3f49ba7c96/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+37            android:exported="true" />
+37-->[androidx.compose.ui:ui-tooling-android:1.12.1] /Users/andreguedes/.gradle/caches/9.8.2/transforms/16785472ada9860e818fbc3f49ba7c96/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+38
+39        <uses-library
+39-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+40            android:name="androidx.window.extensions"
+40-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+41            android:required="false" />
+41-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+42        <uses-library
+42-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+43            android:name="androidx.window.sidecar"
+43-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+44            android:required="false" />
+44-->[androidx.window:window:1.5.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/88308e6288dd39617b74966797886c1d/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+48            android:authorities="br.com.arsgapps.matrizes.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/80ed4f8866ff27712bafb3005dcd7f56/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/3c385827a2f75a1e96236f9a0d636aa1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/3c385827a2f75a1e96236f9a0d636aa1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/3c385827a2f75a1e96236f9a0d636aa1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
 56            <meta-data
-56-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+56-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
 57                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-57-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+57-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
 58                android:value="androidx.startup" />
-58-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
 59        </provider>
 60
 61        <receiver
-61-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+61-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
 62            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+62-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 63            android:directBootAware="false"
-63-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
 64            android:enabled="true"
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
 65            android:exported="true"
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
 66            android:permission="android.permission.DUMP" >
-66-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
 67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 68                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 69            </intent-filter>
 70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 71                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 72            </intent-filter>
 73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 74                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 75            </intent-filter>
 76            <intent-filter>
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 77                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0cd7261cfeac9cdbd6e1f87b1159c6a2/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/andreguedes/.gradle/caches/9.8.2/transforms/0111464142d12b896c44d1e371aac8f3/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
 78            </intent-filter>
 79        </receiver>
 80    </application>

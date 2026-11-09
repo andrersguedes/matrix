@@ -16,22 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SomaSubtracaoMatriz"
-            android:exported="false" />
-        <activity
-            android:name=".OrdemMatriz"
-            android:exported="false" />
-        <activity
-            android:name=".controller.Operacoes"
-            android:exported="false"
-            android:theme="@android:style/Theme.Dialog" />
-        <activity
-            android:name=".MultiConstante"
-            android:exported="false" />
-        <activity
-            android:name=".MultiMatrizes"
-            android:exported="false" />
     </application>
 
 </manifest>

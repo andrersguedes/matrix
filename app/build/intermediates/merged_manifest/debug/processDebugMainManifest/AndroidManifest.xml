@@ -33,26 +33,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.arsgapps.matrizes.SomaSubtracaoMatriz"
-            android:exported="false" />
-        <activity
-            android:name="br.com.arsgapps.matrizes.OrdemMatriz"
-            android:exported="false" />
-        <activity
-            android:name="br.com.arsgapps.matrizes.controller.Operacoes"
-            android:exported="false"
-            android:theme="@android:style/Theme.Dialog" />
-        <activity
-            android:name="br.com.arsgapps.matrizes.MultiConstante"
-            android:exported="false" />
-        <activity
-            android:name="br.com.arsgapps.matrizes.MultiMatrizes"
-            android:exported="false" />
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="br.com.arsgapps.matrizes.androidx-startup"
             android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
