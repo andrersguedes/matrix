@@ -41,26 +41,8 @@ fun HomeScreen(onSelectOperation: (MatrixOperation) -> Unit) {
             .fillMaxSize()
             .windowInsetsPadding(WindowInsets.systemBars)
             .statusBarsPadding()
-            .padding(20.dp)
+            .padding(16.dp)
     ) {
-        item(span = { GridItemSpan(2) }) {
-            Column {
-                Text(
-                    text = "Operações com Matrizes",
-                    style = MaterialTheme.typography.headlineMedium.copy(
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary
-                    )
-                )
-                Text(
-                    text = "Selecione a operação para iniciar",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(top = 4.dp, bottom = 24.dp)
-                )
-            }
-        }
-
         items(operations) { item ->
             Card(
                 shape = RoundedCornerShape(16.dp),
@@ -76,7 +58,7 @@ fun HomeScreen(onSelectOperation: (MatrixOperation) -> Unit) {
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(16.dp),
+                        .padding(12.dp),
                     verticalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(
