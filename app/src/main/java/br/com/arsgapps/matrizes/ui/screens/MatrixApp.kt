@@ -1,5 +1,6 @@
 package br.com.arsgapps.matrizes.ui.screens
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -8,7 +9,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -31,6 +31,16 @@ import br.com.arsgapps.matrizes.ui.theme.MatrixTheme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MatrixApp(vm: MatrixViewModel = viewModel()) {
+    BackHandler(enabled = vm.currentScreen != Screen.MENU) {
+        vm.navigateTo(
+            when (vm.currentScreen) {
+                Screen.RESULT -> Screen.SETUP
+                Screen.SETUP -> Screen.MENU
+                Screen.MENU -> Screen.MENU
+            }
+        )
+    }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -68,15 +78,6 @@ fun MatrixApp(vm: MatrixViewModel = viewModel()) {
                         }
                     }
                 },
-                actions = {
-                    IconButton(onClick = { vm.navigateTo(Screen.MENU) }) {
-                        Icon(
-                            imageVector = Icons.Default.Tune,
-                            contentDescription = "Menu Principal",
-                            tint = Color.White
-                        )
-                    }
-                },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary,
                     titleContentColor = Color.White
@@ -87,14 +88,13 @@ fun MatrixApp(vm: MatrixViewModel = viewModel()) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues)
                 .background(MaterialTheme.colorScheme.background)
         ) {
             Crossfade(targetState = vm.currentScreen, label = "ScreenTransition") { screen ->
                 when (screen) {
-                    Screen.MENU -> MenuScreen(vm)
-                    Screen.SETUP -> SetupScreen(vm)
-                    Screen.RESULT -> ResultScreen(vm)
+                    Screen.MENU -> MenuScreen(vm, paddingValues)
+                    Screen.SETUP -> SetupScreen(vm, paddingValues)
+                    Screen.RESULT -> ResultScreen(vm, paddingValues)
                 }
             }
         }
