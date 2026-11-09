@@ -1,14 +1,15 @@
 package br.com.arsgapps.matrizes.ui.screens
 
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.consumeWindowInsets
+import android.annotation.SuppressLint
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -18,8 +19,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.RotateLeft
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.RotateLeft
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
@@ -37,18 +38,17 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import android.annotation.SuppressLint
 import androidx.compose.ui.unit.sp
+import br.com.arsgapps.matrizes.R
 import br.com.arsgapps.matrizes.ui.MatrixViewModel
 import br.com.arsgapps.matrizes.ui.Screen
 import br.com.arsgapps.matrizes.ui.theme.MatrixTheme
-
-import androidx.compose.ui.platform.LocalLayoutDirection
 
 @Composable
 fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValues(0.dp)) {
@@ -72,7 +72,7 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
         item {
             TabRow(
                 selectedTabIndex = activeTab,
-                containerColor = Color(0xFFE2E8F0),
+                containerColor = MaterialTheme.colorScheme.outlineVariant,
                 modifier = Modifier.clip(RoundedCornerShape(12.dp))
             ) {
                 Tab(
@@ -80,9 +80,9 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                     onClick = { activeTab = 0 },
                     text = {
                         Text(
-                            "Resultado Matriz",
+                            stringResource(R.string.result_screen_text_matrix_result),
                             fontWeight = if (activeTab == 0) FontWeight.Bold else FontWeight.Normal,
-                            color = if (activeTab == 0) MaterialTheme.colorScheme.primary else Color.Gray
+                            color = MaterialTheme.colorScheme.primary
                         )
                     }
                 )
@@ -91,9 +91,12 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                     onClick = { activeTab = 1 },
                     text = {
                         Text(
-                            "Passo a Passo (${result.steps.size})",
+                            stringResource(
+                                R.string.result_screen_text_step_by_step,
+                                result.steps.size
+                            ),
                             fontWeight = if (activeTab == 1) FontWeight.Bold else FontWeight.Normal,
-                            color = if (activeTab == 1) MaterialTheme.colorScheme.primary else Color.Gray
+                            color = MaterialTheme.colorScheme.primary
                         )
                     }
                 )
@@ -105,7 +108,7 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
             item {
                 Card(
                     shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = Color.White),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.onSecondary),
                     elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
                     modifier = Modifier.fillMaxWidth()
                 ) {
@@ -116,10 +119,10 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Text(
-                            text = "MATRIZ RESULTANTE C",
+                            text = stringResource(R.string.result_screen_text_matrix_result_c),
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Bold,
-                            color = Color.Gray
+                            color = MaterialTheme.colorScheme.primary
                         )
 
                         Spacer(modifier = Modifier.height(16.dp))
@@ -136,7 +139,10 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                                     .border(
                                         width = 3.dp,
                                         color = MaterialTheme.colorScheme.primary,
-                                        shape = RoundedCornerShape(topStart = 6.dp, bottomStart = 6.dp)
+                                        shape = RoundedCornerShape(
+                                            topStart = 6.dp,
+                                            bottomStart = 6.dp
+                                        )
                                     )
                             )
 
@@ -150,7 +156,11 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                                                 modifier = Modifier
                                                     .size(46.dp)
                                                     .clip(RoundedCornerShape(10.dp))
-                                                    .background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f))
+                                                    .background(
+                                                        MaterialTheme.colorScheme.primaryContainer.copy(
+                                                            alpha = 0.6f
+                                                        )
+                                                    )
                                                     .border(
                                                         1.dp,
                                                         MaterialTheme.colorScheme.primary.copy(alpha = 0.2f),
@@ -186,15 +196,24 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                         }
 
                         Spacer(modifier = Modifier.height(20.dp))
-                        HorizontalDivider(color = Color(0xFFEEEEEE))
+                        HorizontalDivider(color = MaterialTheme.colorScheme.outline)
                         Spacer(modifier = Modifier.height(12.dp))
 
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
-                            Text("Operação: ${vm.selectedOperation.title}", fontSize = 12.sp, color = Color.Gray)
-                            Text("Dimensão: ${result.rows}×${result.cols}", fontSize = 12.sp, color = Color.Gray)
+                            Text(
+                                stringResource(
+                                    R.string.result_screen_text_operation,
+                                    vm.selectedOperation.title
+                                ), fontSize = 12.sp, color = MaterialTheme.colorScheme.primary)
+                            Text(
+                                stringResource(
+                                    R.string.result_screen_text_dimension,
+                                    result.rows,
+                                    result.cols
+                                ), fontSize = 12.sp, color = MaterialTheme.colorScheme.primary)
                         }
                     }
                 }
@@ -204,23 +223,37 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
             item {
                 Card(
                     shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = Color(0xFFF8F9FA)),
-                    border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFFE2E8F0)),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer),
+                    border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.onSecondaryContainer),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Column(modifier = Modifier.padding(14.dp)) {
-                        Text("Entradas Processadas:", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = Color.DarkGray)
+                        Text(stringResource(R.string.result_screen_text_entries), fontWeight = FontWeight.Bold, fontSize = 12.sp, color = MaterialTheme.colorScheme.onPrimaryContainer)
                         Spacer(modifier = Modifier.height(6.dp))
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.SpaceAround
                         ) {
-                            Text("A = ${vm.rowsA}x${vm.colsA}", fontFamily = FontFamily.Monospace, fontSize = 12.sp)
+                            Text(
+                                stringResource(
+                                    R.string.result_screen_text_entry_a,
+                                    vm.rowsA,
+                                    vm.colsA
+                                ), fontFamily = FontFamily.Monospace, fontSize = 12.sp)
                             if (vm.selectedOperation.requiresTwo) {
-                                Text("B = ${vm.rowsB}x${vm.colsB}", fontFamily = FontFamily.Monospace, fontSize = 12.sp)
+                                Text(
+                                    stringResource(
+                                        R.string.result_screen_text_entry_b,
+                                        vm.rowsB,
+                                        vm.colsB
+                                    ), fontFamily = FontFamily.Monospace, fontSize = 12.sp)
                             }
                             if (vm.selectedOperation.isScalar) {
-                                Text("k = ${vm.scalarValue}", fontFamily = FontFamily.Monospace, fontSize = 12.sp)
+                                Text(
+                                    stringResource(
+                                        R.string.result_screen_text_entry_k,
+                                        vm.scalarValue
+                                    ), fontFamily = FontFamily.Monospace, fontSize = 12.sp)
                             }
                         }
                     }
@@ -233,7 +266,7 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
             item {
                 Card(
                     shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = Color.White),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.onSecondary),
                     elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
                     modifier = Modifier.fillMaxWidth()
                 ) {
@@ -242,15 +275,15 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                             Icon(
                                 imageVector = Icons.Default.Info,
                                 contentDescription = null,
-                                tint = MaterialTheme.colorScheme.secondaryFixed,
+                                tint = MaterialTheme.colorScheme.primary,
                                 modifier = Modifier.size(16.dp)
                             )
                             Spacer(modifier = Modifier.width(6.dp))
                             Text(
-                                text = "DETALHAMENTO DOS CÁLCULOS",
+                                text = stringResource(R.string.result_screen_text_calculation_detail),
                                 fontSize = 11.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = Color.Gray
+                                color = MaterialTheme.colorScheme.primary
                             )
                         }
 
@@ -261,7 +294,7 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .padding(vertical = 4.dp)
-                                    .background(Color(0xFFF8F9FA), RoundedCornerShape(10.dp))
+                                    .background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(10.dp))
                                     .padding(10.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
@@ -284,7 +317,7 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                                     text = step,
                                     fontFamily = FontFamily.Monospace,
                                     fontSize = 12.sp,
-                                    color = Color.DarkGray
+                                    color = MaterialTheme.colorScheme.primary
                                 )
                             }
                         }
@@ -302,9 +335,9 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
                     .height(48.dp),
                 shape = RoundedCornerShape(12.dp)
             ) {
-                Icon(imageVector = Icons.Default.RotateLeft, contentDescription = null)
+                Icon(imageVector = Icons.AutoMirrored.Filled.RotateLeft, contentDescription = null)
                 Spacer(modifier = Modifier.width(8.dp))
-                Text("Alterar Valores / Dimensões", fontWeight = FontWeight.SemiBold)
+                Text(stringResource(R.string.result_screen_text_change), fontWeight = FontWeight.SemiBold)
             }
         }
     }
@@ -315,7 +348,8 @@ fun ResultScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingVa
 @Preview(
     name = "Dark Mode",
     showBackground = true,
-    uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES
+    uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES,
+    backgroundColor = 0xFF000000
 )
 @Composable
 fun ResultScreenPreview() {

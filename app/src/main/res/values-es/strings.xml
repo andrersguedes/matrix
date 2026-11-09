@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matrices</string>
+    <string name="operation_card_initiate">Iniciar</string>
+    <string name="matrix_app_text_menu">Operaciones con Matrices</string>
+    <string name="matrix_app_text_result">Resultado de la Operación</string>
+    <string name="matrix_app_text_select_calculation">Seleccione el cálculo deseado</string>
+    <string name="matrix_app_button_back">Volver</string>
+    <string name="menu_screen_text_algebra">ÁLGEBRA LINEAL</string>
+    <string name="menu_screen_text_matrix_calculator">Calculadora de Matrices</string>
+    <string name="menu_screen_text_select_operation">Seleccione la operación para introducir las dimensiones y elementos de forma intuitiva.</string>
+    <string name="menu_screen_text_tip">Consejo: Entrada simplificada con soporte para matrices de órdenes 1×1 hasta 4×4 con visualización matemática en tiempo real.</string>
+    <string name="result_screen_text_matrix_result">Resultado Matriz</string>
+    <string name="result_screen_text_step_by_step">Paso a Paso (%1$d)</string>
+    <string name="result_screen_text_matrix_result_c">MATRIZ RESULTANTE C</string>
+    <string name="result_screen_text_operation">Operación: %1$s</string>
+    <string name="result_screen_text_dimension">Dimensión: %1$d×%2$d</string>
+    <string name="result_screen_text_entries">Entradas Procesadas:</string>
+    <string name="result_screen_text_entry_a">A = %1$dx%2$d</string>
+    <string name="result_screen_text_entry_b">B = %1$dx%2$d</string>
+    <string name="result_screen_text_entry_k">k = %1$s</string>
+    <string name="result_screen_text_calculation_detail">DETALLE DE LOS CÁLCULOS</string>
+    <string name="result_screen_text_change">Cambiar Valores / Dimensiones</string>
+    <string name="setup_screen_text_matrix_orders">ORDEN DE LAS MATRICES</string>
+    <string name="setup_screen_text_a">A (%1$dx%2$d)</string>
+    <string name="setup_screen_text_a_b">A (%1$dx%2$d) %3$s B (%4$dx%5$d)</string>
+    <string name="setup_screen_text_matrix_a">Matriz A</string>
+    <string name="setup_screen_text_matrix_a_lines">Filas (m):</string>
+    <string name="setup_screen_text_matrix_a_columns">Columnas (n):</string>
+    <string name="setup_screen_text_matrix_b">Matriz B</string>
+    <string name="setup_screen_text_matrix_b_dimensions">Dimensiones sincronizadas (%1$dx%2$d)</string>
+    <string name="setup_screen_text_matrix_b_lines">Filas:</string>
+    <string name="setup_screen_text_matrix_lines_fixo">%1$d (Fijo)</string>
+    <string name="setup_screen_text_matrix_b_columns">Columnas (p):</string>
+    <string name="setup_screen_text_matrix_b_scale">Escalar (k)</string>
+    <string name="setup_screen_text_matrix_elements">ELEMENTOS DE LAS MATRICES</string>
+    <string name="setup_screen_text_matrix_grade_edition">Edición Directa en Cuadrícula</string>
+    <string name="setup_screen_text_matrix_a_input">Matriz A (%1$d×%2$d)</string>
+    <string name="setup_screen_text_matrix_b_input">Matriz B (%1$d×%2$d)</string>
+    <string name="setup_screen_text_matrix_calculate">Calcular Operación</string>
+    <string name="matrix_viewmodel_title_sum">Suma</string>
+    <string name="matrix_viewmodel_formula_sum">A_{m×n} + B_{m×n}</string>
+    <string name="matrix_viewmodel_description_sum">Suma elementos correspondientes de dos matrices de la misma dimensión.</string>
+    <string name="matrix_viewmodel_symbol_sum">+</string>
+    <string name="matrix_viewmodel_title_subtract">Resta</string>
+    <string name="matrix_viewmodel_formula_subtract">A_{m×n} - B_{m×n}</string>
+    <string name="matrix_viewmodel_description_subtract">Resta elementos correspondientes de dos matrices.</string>
+    <string name="matrix_viewmodel_symbol_subtract">-</string>
+    <string name="matrix_viewmodel_title_scalar">Mult. Escalar</string>
+    <string name="matrix_viewmodel_formula_scalar">k · A_{m×n}</string>
+    <string name="matrix_viewmodel_description_scalar">Multiplica cada elemento de la matriz A por un número real k.</string>
+    <string name="matrix_viewmodel_symbol_scalar">·</string>
+    <string name="matrix_viewmodel_title_multiply">Mult. Matricial</string>
+    <string name="matrix_viewmodel_formula_multiply">A_{m×n} · B_{n×p}</string>
+    <string name="matrix_viewmodel_description_multiply">Multiplicación de matrices (las columnas de A deben igualar a las filas de B).</string>
+    <string name="matrix_viewmodel_symbol_multiply">×</string>
+</resources>

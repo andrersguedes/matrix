@@ -29,12 +29,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import br.com.arsgapps.matrizes.R
 import br.com.arsgapps.matrizes.ui.OperationType
 import br.com.arsgapps.matrizes.ui.theme.MatrixTheme
 
@@ -42,7 +43,7 @@ import br.com.arsgapps.matrizes.ui.theme.MatrixTheme
 fun OperationCard(op: OperationType, modifier: Modifier = Modifier, onClick: () -> Unit) {
     Card(
         shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = Color.White),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         modifier = modifier.clickable { onClick() }
     ) {
@@ -73,29 +74,29 @@ fun OperationCard(op: OperationType, modifier: Modifier = Modifier, onClick: () 
                 }
                 Spacer(modifier = Modifier.height(10.dp))
                 Text(
-                    text = op.title,
+                    text = stringResource(op.title),
                     fontWeight = FontWeight.Bold,
                     fontSize = 14.sp,
-                    color = Color(0xFF191C1A)
+                    color = MaterialTheme.colorScheme.primary
                 )
                 Text(
-                    text = op.formula,
+                    text = stringResource(op.formula),
                     fontFamily = FontFamily.Monospace,
                     fontSize = 11.sp,
-                    color = MaterialTheme.colorScheme.secondary,
+                    color = MaterialTheme.colorScheme.primary,
                     fontWeight = FontWeight.Medium
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = op.description,
+                    text = stringResource(op.description),
                     fontSize = 11.sp,
-                    color = Color.Gray,
+                    color = MaterialTheme.colorScheme.secondary,
                     lineHeight = 14.sp
                 )
             }
 
             Spacer(modifier = Modifier.height(12.dp))
-            HorizontalDivider(color = Color(0xFFEEEEEE))
+            HorizontalDivider(color = MaterialTheme.colorScheme.outline)
             Spacer(modifier = Modifier.height(8.dp))
 
             Row(
@@ -103,7 +104,7 @@ fun OperationCard(op: OperationType, modifier: Modifier = Modifier, onClick: () 
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(text = "Iniciar", fontSize = 11.sp, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+                Text(text = stringResource(R.string.operation_card_initiate), fontSize = 11.sp, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
                 Icon(
                     imageVector = Icons.Default.ChevronRight,
                     contentDescription = null,

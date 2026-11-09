@@ -7,7 +7,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -27,7 +26,7 @@ fun DimensionStepper(
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(label, modifier = Modifier.weight(1F), fontSize = 10.sp, color = Color.Gray)
+        Text(label, modifier = Modifier.weight(1F), fontSize = 10.sp, color = MaterialTheme.colorScheme.onPrimaryContainer)
         Row(verticalAlignment = Alignment.CenterVertically) {
             OutlinedButton(
                 onClick = onDecrement,
@@ -61,7 +60,8 @@ fun DimensionStepper(
 @Preview(
     name = "Dark Mode",
     showBackground = true,
-    uiMode = Configuration.UI_MODE_NIGHT_YES
+    uiMode = Configuration.UI_MODE_NIGHT_YES,
+    backgroundColor = 0xFF000000
 )
 @Composable
 fun DimensionStepperPreview() {

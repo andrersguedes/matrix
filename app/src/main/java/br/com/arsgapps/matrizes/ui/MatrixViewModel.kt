@@ -6,22 +6,35 @@ import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import br.com.arsgapps.matrizes.R
 
 enum class Screen { MENU, SETUP, RESULT }
 
 enum class OperationType(
-    val title: String,
-    val formula: String,
-    val description: String,
-    val symbol: String,
+    val title: Int,
+    val formula: Int,
+    val description: Int,
+    val symbol: Int,
     val requiresTwo: Boolean,
     val requiresMatchingDimensions: Boolean,
     val isScalar: Boolean = false
 ) {
-    ADD("Soma", "A_{m×n} + B_{m×n}", "Soma elementos correspondentes de duas matrizes de mesma dimensão.", "+", true, true),
-    SUBTRACT("Subtração", "A_{m×n} - B_{m×n}", "Subtrai elementos correspondentes de duas matrizes.", "-", true, true),
-    SCALAR("Mult. Escalar", "k · A_{m×n}", "Multiplica cada elemento da matriz A por um número real k.", "·", false, false, isScalar = true),
-    MULTIPLY("Mult. Matricial", "A_{m×n} · B_{n×p}", "Multiplicação de matrizes (colunas de A devem igualar linhas de B).", "×", true, false)
+    ADD(R.string.matrix_viewmodel_title_sum,
+        R.string.matrix_viewmodel_formula_sum,
+        R.string.matrix_viewmodel_description_sum,
+        R.string.matrix_viewmodel_symbol_sum, true, true),
+    SUBTRACT(R.string.matrix_viewmodel_title_subtract,
+        R.string.matrix_viewmodel_formula_subtract,
+        R.string.matrix_viewmodel_description_subtract,
+        R.string.matrix_viewmodel_symbol_subtract, true, true),
+    SCALAR(R.string.matrix_viewmodel_title_scalar,
+        R.string.matrix_viewmodel_formula_scalar,
+        R.string.matrix_viewmodel_description_scalar,
+        R.string.matrix_viewmodel_symbol_scalar, false, false, isScalar = true),
+    MULTIPLY(R.string.matrix_viewmodel_title_multiply,
+        R.string.matrix_viewmodel_formula_multiply,
+        R.string.matrix_viewmodel_description_multiply,
+        R.string.matrix_viewmodel_symbol_multiply, true, false)
 }
 
 data class CalculationResult(

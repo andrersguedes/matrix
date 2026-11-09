@@ -10,7 +10,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -30,7 +29,7 @@ fun MatrixBracketInput(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .background(Color(0xFFF8F9FA), RoundedCornerShape(12.dp))
+            .background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(12.dp))
             .padding(12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
@@ -42,7 +41,7 @@ fun MatrixBracketInput(
                 .height(48.dp * rows)
                 .border(
                     width = 2.dp,
-                    color = Color.DarkGray,
+                    color = MaterialTheme.colorScheme.secondary,
                     shape = RoundedCornerShape(topStart = 4.dp, bottomStart = 4.dp)
                 )
         )
@@ -70,12 +69,13 @@ fun MatrixBracketInput(
                                     "0",
                                     fontSize = 12.sp,
                                     modifier = Modifier.fillMaxSize(),
-                                    textAlign = TextAlign.Center
+                                    textAlign = TextAlign.Center,
+                                    color = MaterialTheme.colorScheme.onPrimaryContainer
                                 )
                             },
                             modifier = Modifier
                                 .size(48.dp)
-                                .background(Color.White, RoundedCornerShape(8.dp))
+                                .background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(8.dp))
                         )
                     }
                 }
@@ -91,7 +91,7 @@ fun MatrixBracketInput(
                 .height(48.dp * rows)
                 .border(
                     width = 2.dp,
-                    color = Color.DarkGray,
+                    color = MaterialTheme.colorScheme.secondary,
                     shape = RoundedCornerShape(topEnd = 4.dp, bottomEnd = 4.dp)
                 )
         )

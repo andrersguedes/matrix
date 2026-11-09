@@ -1,5 +1,6 @@
 package br.com.arsgapps.matrizes.ui.screens
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,7 +14,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -29,18 +29,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import android.annotation.SuppressLint
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import br.com.arsgapps.matrizes.R
 import br.com.arsgapps.matrizes.ui.MatrixViewModel
 import br.com.arsgapps.matrizes.ui.OperationType
 import br.com.arsgapps.matrizes.ui.components.OperationCard
 import br.com.arsgapps.matrizes.ui.theme.MatrixTheme
-
-import androidx.compose.ui.platform.LocalLayoutDirection
 
 @Composable
 fun MenuScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValues(0.dp)) {
@@ -69,7 +68,7 @@ fun MenuScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValu
                     Icon(
                         imageVector = Icons.Default.GridOn,
                         contentDescription = null,
-                        tint = Color.White.copy(alpha = 0.12f),
+                        tint = MaterialTheme.colorScheme.onSecondary.copy(alpha = 0.12f),
                         modifier = Modifier
                             .size(120.dp)
                             .align(Alignment.BottomEnd)
@@ -78,28 +77,28 @@ fun MenuScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValu
 
                     Column(modifier = Modifier.padding(20.dp)) {
                         Surface(
-                            color = Color.White.copy(alpha = 0.2f),
+                            color = MaterialTheme.colorScheme.onSecondary.copy(alpha = 0.2f),
                             shape = RoundedCornerShape(6.dp)
                         ) {
                             Text(
-                                text = "ÁLGEBRA LINEAR",
+                                text = stringResource(R.string.menu_screen_text_algebra),
                                 modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp),
-                                color = Color.White,
+                                color = MaterialTheme.colorScheme.onSecondary,
                                 fontSize = 10.sp,
                                 fontWeight = FontWeight.Bold
                             )
                         }
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
-                            text = "Calculadora de Matrizes",
-                            color = Color.White,
+                            text = stringResource(R.string.menu_screen_text_matrix_calculator),
+                            color = MaterialTheme.colorScheme.onSecondary,
                             fontSize = 20.sp,
                             fontWeight = FontWeight.Bold
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = "Selecione a operação para inserir as dimensões e elementos de forma intuitiva.",
-                            color = Color.White.copy(alpha = 0.9f),
+                            text = stringResource(R.string.menu_screen_text_select_operation),
+                            color = MaterialTheme.colorScheme.onSecondary.copy(alpha = 0.9f),
                             fontSize = 13.sp
                         )
                     }
@@ -147,7 +146,7 @@ fun MenuScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValu
                     )
                     Spacer(modifier = Modifier.width(10.dp))
                     Text(
-                        text = "Dica: Entrada simplificada com suporte para matrizes de ordens 1×1 até 4×4 com visualização matemática em tempo real.",
+                        text = stringResource(R.string.menu_screen_text_tip),
                         fontSize = 12.sp,
                         color = MaterialTheme.colorScheme.primary
                     )
@@ -162,7 +161,8 @@ fun MenuScreen(vm: MatrixViewModel, scaffoldPadding: PaddingValues = PaddingValu
 @Preview(
     name = "Dark Mode",
     showBackground = true,
-    uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES
+    uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES,
+    backgroundColor = 0xFF000000
 )
 @Composable
 fun MenuScreenPreview() {
