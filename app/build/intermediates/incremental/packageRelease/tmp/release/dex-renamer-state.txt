@@ -1,7 +1,0 @@
-#Wed Nov 04 15:42:26 GMT-03:00 2026
-base.0=/Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-base.1=/Users/andreguedes/AndroidStudioProjects/matrix/app/build/intermediates/global_synthetics_dex/release/mergeReleaseGlobalSynthetics/classes.dex
-path.0=classes.dex
-path.1=classes.dex
-renamed.0=classes.dex
-renamed.1=classes2.dex
