@@ -1,10 +1,10 @@
 R_DEF: Internal format may change without notice
 local
+color ic_launcher_background
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable fundo
 drawable fundo_matriz
-drawable ic_launcher
 drawable shape_linear
 drawable shape_matrizes
 id btnAdicionarElemento
@@ -57,6 +57,9 @@ layout activity_multi_matrizes
 layout activity_ordem
 layout activity_result
 layout activity_soma
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 string a
 string action_settings
 string adicionar

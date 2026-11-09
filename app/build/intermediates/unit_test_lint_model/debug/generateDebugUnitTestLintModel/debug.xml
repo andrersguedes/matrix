@@ -1,8 +1,8 @@
 <variant
     name="debug"
     package="br.com.arsgapps.matrizes"
-    minSdkVersion="21"
-    targetSdkVersion="34"
+    minSdkVersion="23"
+    targetSdkVersion="37.0"
     debuggable="true"
     mergedManifest="build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml"
     manifestMergeReport="build/outputs/logs/manifest-merger-debug-report.txt"

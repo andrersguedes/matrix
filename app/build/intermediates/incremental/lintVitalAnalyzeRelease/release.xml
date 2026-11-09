@@ -1,12 +1,12 @@
 <variant
     name="release"
     package="br.com.arsgapps.matrizes"
-    minSdkVersion="21"
-    targetSdkVersion="34"
+    minSdkVersion="23"
+    targetSdkVersion="37.0"
     mergedManifest="build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
     proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-9.5.0:proguard-project.txt"
     partialResultsDir="build/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
-    desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/ba2245226cc6f9568f33ebde0ef7e9d3/transformed/D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.2/transforms/3675bb2cfcd277802e9c107e0c9267a0/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures/>
   <sourceProviders>
     <sourceProvider
@@ -25,6 +25,6 @@
       type="MAIN"
       applicationId="br.com.arsgapps.matrizes"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out"
-      desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.0/transforms/ba2245226cc6f9568f33ebde0ef7e9d3/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/Users/andreguedes/.gradle/caches/9.8.2/transforms/3675bb2cfcd277802e9c107e0c9267a0/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

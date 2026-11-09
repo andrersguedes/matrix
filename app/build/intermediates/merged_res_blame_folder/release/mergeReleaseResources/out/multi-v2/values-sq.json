@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "br.com.arsgapps.matrizes.app-mergeReleaseResources-5:/values-sq/values-sq.xml",
+            "outputFile": "br.com.arsgapps.matrizes.app-mergeReleaseResources-10:/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/andreguedes/.gradle/caches/9.8.0/transforms/5c09aa5cfec330125c646ec7b23d5279/transformed/core-1.10.1/res/values-sq/values-sq.xml",
+                    "source": "/Users/andreguedes/.gradle/caches/9.8.2/transforms/e5f285218e99d827e504e1bdeba0c010/transformed/core-1.19.1/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

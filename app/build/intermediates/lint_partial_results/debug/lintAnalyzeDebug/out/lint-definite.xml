@@ -2,32 +2,6 @@
 <incidents format="6" by="lint 9.5.0" type="incidents">
 
     <incident
-        id="WrongCommentType"
-        severity="warning"
-        message="This block comment looks like it was intended to be a javadoc comment">
-        <fix-replace
-            description="Replace with /**"
-            robot="true"
-            independent="true"
-            oldString="/*"
-            replacement="/**"
-            priority="0">
-            <range
-                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MainActivity.java"
-                startOffset="148"
-                endOffset="178"/>
-        </fix-replace>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MainActivity.java"
-            line="9"
-            column="4"
-            startOffset="154"
-            endLine="9"
-            endColumn="24"
-            endOffset="174"/>
-    </incident>
-
-    <incident
         id="DefaultLocale"
         severity="warning"
         message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
@@ -35,10 +9,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="126"
             column="25"
-            startOffset="3828"
+            startOffset="3732"
             endLine="126"
             endColumn="51"
-            endOffset="3854"/>
+            endOffset="3758"/>
     </incident>
 
     <incident
@@ -49,10 +23,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="152"
             column="25"
-            startOffset="4598"
+            startOffset="4502"
             endLine="152"
             endColumn="51"
-            endOffset="4624"/>
+            endOffset="4528"/>
     </incident>
 
     <incident
@@ -63,10 +37,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="179"
             column="25"
-            startOffset="5442"
+            startOffset="5346"
             endLine="179"
             endColumn="51"
-            endOffset="5468"/>
+            endOffset="5372"/>
     </incident>
 
     <incident
@@ -77,10 +51,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="204"
             column="25"
-            startOffset="6195"
+            startOffset="6099"
             endLine="204"
             endColumn="51"
-            endOffset="6221"/>
+            endOffset="6125"/>
     </incident>
 
     <incident
@@ -91,10 +65,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="240"
             column="24"
-            startOffset="7046"
+            startOffset="6942"
             endLine="240"
             endColumn="51"
-            endOffset="7073"/>
+            endOffset="6969"/>
     </incident>
 
     <incident
@@ -105,10 +79,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/MultiMatrizes.java"
             line="276"
             column="24"
-            startOffset="7920"
+            startOffset="7816"
             endLine="276"
             endColumn="51"
-            endOffset="7947"/>
+            endOffset="7843"/>
     </incident>
 
     <incident
@@ -119,10 +93,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/controller/Operacoes.java"
             line="71"
             column="22"
-            startOffset="1994"
+            startOffset="1978"
             endLine="71"
             endColumn="48"
-            endOffset="2020"/>
+            endOffset="2004"/>
     </incident>
 
     <incident
@@ -133,10 +107,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/controller/Operacoes.java"
             line="100"
             column="22"
-            startOffset="2784"
+            startOffset="2774"
             endLine="100"
             endColumn="48"
-            endOffset="2810"/>
+            endOffset="2800"/>
     </incident>
 
     <incident
@@ -147,173 +121,39 @@
             file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/controller/Operacoes.java"
             line="128"
             column="22"
-            startOffset="3538"
+            startOffset="3528"
             endLine="128"
             endColumn="48"
-            endOffset="3564"/>
+            endOffset="3554"/>
     </incident>
 
     <incident
-        id="OldTargetApi"
+        id="SuspiciousIndentation"
         severity="warning"
-        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
-        <fix-replace
-            description="Update targetSdkVersion to 37"
-            oldString="34"
-            replacement="37"
-            priority="0"/>
+        message="The indentation string here is different from on the previous line (`&quot; &quot;` vs `\t`)">
         <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="12"
-            column="9"
-            startOffset="220"
-            endLine="12"
-            endColumn="23"
-            endOffset="234"/>
-    </incident>
-
-    <incident
-        id="MissingInflatedId"
-        severity="error"
-        message="`@layout/activity_soma` does not contain a declaration with id `layoutMatrizC`">
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/controller/Operacoes.java"
+            line="33"
+            column="1"
+            startOffset="896"
+            endLine="33"
+            endColumn="3"
+            endOffset="898"/>
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/SomaSubtracaoMatriz.java"
-            line="52"
-            column="47"
-            startOffset="1467"
-            endLine="52"
-            endColumn="65"
-            endOffset="1485"/>
-    </incident>
-
-    <incident
-        id="AndroidGradlePluginVersion"
-        severity="warning"
-        message="A newer version of Gradle than 9.8.0 is available: 9.8.2">
-        <fix-replace
-            description="Update to 9.8.2"
-            oldString="9.8.0"
-            replacement="9.8.2"
-            priority="0"/>
-        <location
-            file="$HOME/AndroidStudioProjects/matrix/gradle/wrapper/gradle-wrapper.properties"
-            line="3"
-            column="17"
-            startOffset="81"
-            endLine="3"
-            endColumn="80"
-            endOffset="144"/>
-    </incident>
-
-    <incident
-        id="AndroidGradlePluginVersion"
-        severity="warning"
-        message="A newer version of com.android.application than 9.4.1 is available: 9.5.0">
-        <fix-replace
-            description="Replace with 9.5.0"
-            family="Update versions"
-            oldString="9.4.1"
-            replacement="9.5.0"
-            priority="0"/>
-        <location
-            file="$HOME/AndroidStudioProjects/matrix/gradle/libs.versions.toml"
-            line="2"
-            column="7"
-            startOffset="17"
-            endLine="2"
-            endColumn="14"
-            endOffset="24"/>
-        <map>
-            <entry
-                name="coordinate"
-                string="com.android.application"/>
-            <entry
-                name="revision"
-                string="9.5.0"/>
-        </map>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of `compileSdk` than 34 is available: 37">
-        <fix-replace
-            description="Set compileSdk to 37"
-            oldString="34"
-            replacement="37"
-            priority="0"/>
-        <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="7"
-            column="5"
-            startOffset="104"
-            endLine="7"
-            endColumn="20"
-            endOffset="119"/>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.19.1">
-        <fix-replace
-            description="Change to 1.19.1"
-            family="Update versions"
-            oldString="1.10.1"
-            replacement="1.19.1"
-            priority="0"/>
-        <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="39"
-            column="20"
-            startOffset="785"
-            endLine="39"
-            endColumn="51"
-            endOffset="816"/>
-    </incident>
-
-    <incident
-        id="NewerVersionAvailable"
-        severity="warning"
-        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.20 is available: 2.4.21">
-        <fix-replace
-            description="Change to 2.4.21"
-            family="Update versions"
-            oldString="2.1.20"
-            replacement="2.4.21"
-            priority="0"/>
-        <location
-            file="$HOME/AndroidStudioProjects/matrix/gradle/libs.versions.toml"
-            line="11"
-            column="10"
-            startOffset="198"
-            endLine="11"
-            endColumn="18"
-            endOffset="206"/>
-    </incident>
-
-    <incident
-        id="ObsoleteSdkInt"
-        severity="warning"
-        message="This folder configuration (`v11`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `values`.">
-        <fix-data file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-v11" folderName="values" requiresApi="21"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-v11"/>
-    </incident>
-
-    <incident
-        id="ObsoleteSdkInt"
-        severity="warning"
-        message="This folder configuration (`v14`) is unnecessary; `minSdkVersion` is 21. Merge all the resources in this folder into `values`.">
-        <fix-data file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-v14" folderName="values" requiresApi="21"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-v14"/>
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/br/com/arsgapps/matrizes/controller/Operacoes.java"
+            line="32"
+            column="1"
+            startOffset="839"
+            endLine="32"
+            endColumn="3"
+            endOffset="841"
+            message="Previous line indentation here"/>
     </incident>
 
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@style/AppBaseTheme`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="5"
@@ -327,7 +167,7 @@
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@style/AppBaseTheme`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_multi_constante.xml"
             line="5"
@@ -341,7 +181,7 @@
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@style/AppBaseTheme`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_multi_matrizes.xml"
             line="5"
@@ -355,7 +195,7 @@
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@style/AppBaseTheme`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_ordem.xml"
             line="5"
@@ -369,7 +209,7 @@
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        message="Possible overdraw: Root element paints background `@drawable/fundo` with a theme that also paints a background (inferred theme is `@style/AppBaseTheme`)">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_soma.xml"
             line="5"
@@ -423,27 +263,19 @@
     </incident>
 
     <incident
-        id="IconDensities"
+        id="IconLocation"
         severity="warning"
-        message="Missing the following drawables in `drawable-mdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml">
+        message="Found bitmap drawable `res/drawable/fundo.jpg` in densityless folder">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-mdpi"/>
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/fundo.jpg"/>
     </incident>
 
     <incident
-        id="IconDensities"
+        id="IconLocation"
         severity="warning"
-        message="Missing the following drawables in `drawable-xhdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml">
+        message="Found bitmap drawable `res/drawable/fundo_matriz.png` in densityless folder">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-xhdpi"/>
-    </incident>
-
-    <incident
-        id="IconDensities"
-        severity="warning"
-        message="Missing the following drawables in `drawable-xxhdpi`: fundo.jpg, fundo_matriz.png, shape_linear.xml, shape_matrizes.xml">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-xxhdpi"/>
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/fundo_matriz.png"/>
     </incident>
 
     <incident
@@ -668,71 +500,6 @@
             endLine="90"
             endColumn="30"
             endOffset="3942"/>
-    </incident>
-
-    <incident
-        id="UseTomlInstead"
-        severity="warning"
-        message="Use version catalog instead (androidx.core:core-ktx is already available as `androidx-core-ktx`, but using version 1.19.1 instead)">
-        <fix-alternatives>
-            <fix-composite
-                description="Replace with new library catalog declaration for core-ktx-v1101"
-                robot="true"
-                independent="true">
-                <fix-replace
-                    description="Replace with androidxCoreKtx = &quot;1.10.1&quot;..."
-                    robot="true"
-                    independent="true"
-                    oldString="_lint_insert_begin_"
-                    replacement="androidxCoreKtx = &quot;1.10.1&quot;&#xA;"
-                    priority="0">
-                    <range
-                        file="$HOME/AndroidStudioProjects/matrix/gradle/libs.versions.toml"
-                        startOffset="25"
-                        endOffset="25"/>
-                </fix-replace>
-                <fix-replace
-                    description="Replace with core-ktx-v1101 = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;androidxCoreKtx&quot; }..."
-                    robot="true"
-                    independent="true"
-                    oldString="_lint_insert_begin_"
-                    replacement="core-ktx-v1101 = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;androidxCoreKtx&quot; }&#xA;"
-                    priority="0">
-                    <range
-                        file="$HOME/AndroidStudioProjects/matrix/gradle/libs.versions.toml"
-                        startOffset="675"
-                        endOffset="675"/>
-                </fix-replace>
-                <fix-replace
-                    description="Replace with libs.core.ktx.v1101"
-                    robot="true"
-                    independent="true"
-                    replacement="libs.core.ktx.v1101"
-                    priority="0">
-                    <range
-                        file="${:app*projectDir}/build.gradle.kts"
-                        startOffset="785"
-                        endOffset="816"/>
-                </fix-replace>
-            </fix-composite>
-            <fix-replace
-                description="Replace with existing version catalog reference `androidx-core-ktx` (version 1.19.1)"
-                replacement="libs.androidx.core.ktx"
-                priority="0">
-                <range
-                    file="${:app*projectDir}/build.gradle.kts"
-                    startOffset="785"
-                    endOffset="816"/>
-            </fix-replace>
-        </fix-alternatives>
-        <location
-            file="${:app*projectDir}/build.gradle.kts"
-            line="39"
-            column="20"
-            startOffset="785"
-            endLine="39"
-            endColumn="51"
-            endOffset="816"/>
     </incident>
 
     <incident

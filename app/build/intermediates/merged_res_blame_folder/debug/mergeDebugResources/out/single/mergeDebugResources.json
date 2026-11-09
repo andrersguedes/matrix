@@ -1,58 +1,102 @@
 [
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-mdpi_ic_launcher.png.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-mdpi/ic_launcher.png"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/drawable_shape_matrizes.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/drawable/shape_matrizes.xml"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-hdpi_ic_launcher.png.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-hdpi/ic_launcher.png"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_soma.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_soma.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-xhdpi/ic_launcher.png"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_ordem.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_ordem.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-xxhdpi/ic_launcher.png"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_multi_constante.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_multi_constante.xml"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_result.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_result.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/drawable_fundo.jpg.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/drawable/fundo.jpg"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-hdpi_fundo.jpg.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-hdpi/fundo.jpg"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/drawable_shape_linear.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/drawable/shape_linear.xml"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_multi_matrizes.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_multi_matrizes.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_main.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_main.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/layout_activity_multi_constante.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/layout/activity_multi_constante.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-hdpi_shape_linear.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-hdpi/shape_linear.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_ordem.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_ordem.xml"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-hdpi_fundo_matriz.png.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-hdpi/fundo_matriz.png"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_multi_matrizes.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_multi_matrizes.xml"
     },
     {
-        "merged": "br.com.arsgapps.matrizes.app-debug-7:/drawable-hdpi_shape_matrizes.xml.flat",
-        "source": "br.com.arsgapps.matrizes.app-main-9:/drawable-hdpi/shape_matrizes.xml"
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/drawable_fundo_matriz.png.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/drawable/fundo_matriz.png"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_main.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_main.xml"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_result.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_result.xml"
+    },
+    {
+        "merged": "br.com.arsgapps.matrizes.app-debug-12:/layout_activity_soma.xml.flat",
+        "source": "br.com.arsgapps.matrizes.app-main-14:/layout/activity_soma.xml"
     }
 ]
