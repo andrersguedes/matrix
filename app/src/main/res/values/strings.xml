@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Matrizes</string>
     <string name="operation_card_initiate">Iniciar</string>
     <string name="matrix_app_text_menu">Operações com Matrizes</string>
@@ -55,5 +54,4 @@
     <string name="matrix_viewmodel_formula_multiply">A_{m×n} · B_{n×p}</string>
     <string name="matrix_viewmodel_description_multiply">Multiplicação de matrizes (colunas de A devem igualar linhas de B).</string>
     <string name="matrix_viewmodel_symbol_multiply">×</string>
-
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Matrices</string>
+    <string name="app_name">Matrix</string>
     <string name="operation_card_initiate">Start</string>
     <string name="matrix_app_text_menu">Matrix Operations</string>
     <string name="matrix_app_text_result">Operation Result</string>
