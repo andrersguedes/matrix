@@ -82,8 +82,8 @@ We follow standard Git Flow practices to ensure a clean and collaborative develo
 
 2. **Clone Your Fork**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/matrizes.git
-   cd matrizes
+   git clone https://github.com/YOUR-USERNAME/matrix.git
+   cd matrix
    ```
 
 3. **Create a Feature Branch**
